@@ -1536,3 +1536,527 @@ The project directory:
 [2024.06.17-14.38.11:081][407]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2024.06.17-14.38.11:089][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
 [2024.06.17-14.38.11:116][408]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.06.17-14.42.59:982][ 27]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2024.06.17-14.43.00:007][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.06.17-14.44.52:528][597]LogEditorTransaction: Undo Resize Node
+[2024.06.17-14.44.53:053][617]LogEditorTransaction: Undo Add Node
+[2024.06.17-14.44.58:724][179]LogEditorTransaction: Undo Add Node
+[2024.06.17-14.45.52:225][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.06.17-14.45.52:227][611]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeons' took 0.017
+[2024.06.17-14.45.52:228][611]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2024.06.17-14.45.52:228][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2024.06.17-14.45.52:234][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto3
+[2024.06.17-14.45.52:234][611]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonGameMode_Auto3879F62F04268D7B55A57399CFB33D626.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto3.uasset'
+[2024.06.17-14.45.52:235][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/ActionBar] ([2] browsable assets)...
+[2024.06.17-14.45.52:235][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/ActionBar]
+[2024.06.17-14.45.52:240][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/ActionBar_Auto3
+[2024.06.17-14.45.52:240][611]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBar_Auto3E44D31624EECBBB9AF4C14873433EFCB.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/ActionBar_Auto3.uasset'
+[2024.06.17-14.45.52:241][611]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillSlot] ([2] browsable assets)...
+[2024.06.17-14.45.52:241][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot]
+[2024.06.17-14.45.52:245][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto3
+[2024.06.17-14.45.52:245][611]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot_Auto3A0DE20374679C24B5EB5D4BEC5EA141C.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto3.uasset'
+[2024.06.17-14.45.52:246][611]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/HeadsUpDisplay] ([2] browsable assets)...
+[2024.06.17-14.45.52:250][611]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/HeadsUpDisplay.HeadsUpDisplay]
+[2024.06.17-14.45.52:250][611]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/HeadsUpDisplay]
+[2024.06.17-14.45.52:254][611]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/HeadsUpDisplay_Auto3
+[2024.06.17-14.45.52:254][611]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/HeadsUpDisplay_Auto328284E674EBAC9991D11FFB163AF2D2D.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/HeadsUpDisplay_Auto3.uasset'
+[2024.06.17-14.45.52:255][611]LogFileHelpers: Auto-saving content packages took 0.028
+[2024.06.17-14.47.40:161][115]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2024.06.17-14.47.40:187][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.06.17-14.48.14:809][913]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.17-14.48.14:815][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.17-14.48.14:816][913]PIE: New page: PIE session: Dungeons (17 Jun 2024, 16:48:14)
+[2024.06.17-14.48.14:838][913]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.17-14.48.14:840][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001960s)
+[2024.06.17-14.48.14:840][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.001996s)
+[2024.06.17-14.48.14:855][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-14.48.14:856][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-14.48.14:856][913]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-14.48.14:857][913]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.17-14.48.14:857][913]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2024.06.17-14.48.14:857][913]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.17-14.48.14:857][913]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.17-14.48.14:857][913]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.17-14.48.14:858][913]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.17-14.48.14:858][913]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.17-14.48.14:858][913]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.17-14.48.14:860][913]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.17-14.48.14:879][913]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.17-14.48.14:880][913]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.17-14.48.14:880][913]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.17-14.48.14:880][913]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.17-14.48.14:880][913]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.06.17-14.48.14:880][913]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.06.17-14.48.14:882][913]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.06.17-14.48.14:882][913]LogInit: FAudioDevice initialized with ID 5.
+[2024.06.17-14.48.14:882][913]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.06.17-14.48.14:882][913]LogAudio: Display: Audio Device (ID: 5) registered with world 'Dungeons'.
+[2024.06.17-14.48.14:882][913]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.17-14.48.14:884][913]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.17-14.48.14:885][913]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.17-15.48.14
+[2024.06.17-14.48.14:885][913]LogWorld: Bringing up level for play took: 0.000526
+[2024.06.17-14.48.14:887][913]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.06.17-14.48.14:895][913]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.17-14.48.14:895][913]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.17-14.48.14:895][913]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.17-14.48.14:896][913]PIE: Server logged in
+[2024.06.17-14.48.14:896][913]PIE: Play in editor total start time 0.081 seconds.
+[2024.06.17-14.48.42:058][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-14.48.42:058][159]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.17-14.48.42:059][159]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-14.48.42:059][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.48.42:062][159]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.17-14.48.42:068][159]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.48.42:081][159]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-14.48.42:081][159]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.17-14.48.42:081][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.17-14.48.42:083][159]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.17-14.48.42:090][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.06.17-14.48.42:136][162]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.06.17-14.48.50:866][895]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2024.06.17-14.48.50:892][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.06.17-14.48.59:478][882]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.17-14.48.59:484][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.17-14.48.59:484][882]PIE: New page: PIE session: Dungeons (17 Jun 2024, 16:48:59)
+[2024.06.17-14.48.59:484][882]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.17-14.48.59:486][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001869s)
+[2024.06.17-14.48.59:486][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.001901s)
+[2024.06.17-14.48.59:499][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.06.17-14.48.59:501][882]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-14.48.59:501][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-14.48.59:501][882]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.17-14.48.59:502][882]LogPlayLevel: PIE: World Init took: (0.000903s)
+[2024.06.17-14.48.59:502][882]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.17-14.48.59:502][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.17-14.48.59:502][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.17-14.48.59:502][882]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.17-14.48.59:502][882]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.17-14.48.59:502][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.17-14.48.59:504][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.17-14.48.59:524][882]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.17-14.48.59:524][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.17-14.48.59:524][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.17-14.48.59:524][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.17-14.48.59:524][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.17-14.48.59:524][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.17-14.48.59:526][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.17-14.48.59:526][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.17-14.48.59:526][882]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.17-14.48.59:526][882]LogAudio: Display: Audio Device (ID: 6) registered with world 'Dungeons'.
+[2024.06.17-14.48.59:526][882]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.17-14.48.59:529][882]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.17-14.48.59:529][882]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.17-15.48.59
+[2024.06.17-14.48.59:529][882]LogWorld: Bringing up level for play took: 0.000506
+[2024.06.17-14.48.59:531][882]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.06.17-14.48.59:539][882]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.17-14.48.59:539][882]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.17-14.48.59:539][882]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.17-14.48.59:539][882]PIE: Server logged in
+[2024.06.17-14.48.59:540][882]PIE: Play in editor total start time 0.057 seconds.
+[2024.06.17-14.49.06:538][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-14.49.06:538][695]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.17-14.49.06:538][695]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-14.49.06:539][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.49.06:542][695]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.17-14.49.06:547][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.49.06:560][695]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-14.49.06:561][695]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.17-14.49.06:561][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.17-14.49.06:562][695]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.17-14.49.06:569][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.06.17-14.49.06:615][697]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.06.17-14.50.07:219][821]LogSlate: Window 'Color Picker' being destroyed
+[2024.06.17-14.50.23:722][328]BlueprintLog: New page: Compile BP_ThirdPersonGameMode
+[2024.06.17-14.50.23:748][328]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.06.17-14.51.41:537][548]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2024.06.17-14.51.41:542][548]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2024.06.17-14.51.41:551][549]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2024.06.17-14.51.47:716][867]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> NewUserDefinedStruct
+[2024.06.17-14.51.47:807][867]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2024.06.17-14.51.56:210][841]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> SkillDetailsStructure
+[2024.06.17-14.51.56:546][841]LogMetaData: Removing '/Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure' ref from Metadata '/Game/SkillSystem/NewUserDefinedStruct.PackageMetaData'
+[2024.06.17-14.51.56:571][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-14.51.56:608][841]LogSavePackage: Moving output files for package: /Game/SkillSystem/SkillDetailsStructure
+[2024.06.17-14.51.56:608][841]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillDetailsStructure28166176417D63213FE7F78D20D65FF7.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/SkillDetailsStructure.uasset'
+[2024.06.17-14.51.56:617][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms
+[2024.06.17-14.51.56:644][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.17-14.51.56:660][841]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.17-14.51.56:671][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.06.17-14.51.56:673][841]AssetCheck: New page: Asset Save: SkillDetailsStructure
+[2024.06.17-14.51.56:673][841]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure
+[2024.06.17-14.51.57:547][944]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure
+[2024.06.17-14.52.13:657][291]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.06.17-14.52.25:128][542]LogSlate: Took 0.024026 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.06.17-14.56.27:772][760]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.17-14.56.27:778][760]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-14.56.27:822][760]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2024.06.17-14.56.27:825][760]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonGameMode066DCDD1489133D9E31F76B7FFABCFEA.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2024.06.17-14.56.27:830][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/ActionBar" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset" SILENT=true
+[2024.06.17-14.56.27:835][760]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/ActionBar
+[2024.06.17-14.56.27:836][760]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBar836D83F441F36B2D8643EE85404337E8.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset'
+[2024.06.17-14.56.27:841][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset" SILENT=true
+[2024.06.17-14.56.27:846][760]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot
+[2024.06.17-14.56.27:846][760]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot2F1AFE47496BC77DC0E6A1B75032FA9B.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset'
+[2024.06.17-14.56.27:856][760]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/HeadsUpDisplay
+[2024.06.17-14.56.27:857][760]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/HeadsUpDisplayDAB1AA9C4362E4C48DB0BEB55C1083EF.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/HeadsUpDisplay.uasset'
+[2024.06.17-14.56.27:862][760]LogSavePackage: Moving output files for package: /Game/SkillSystem/SkillDetailsStructure
+[2024.06.17-14.56.27:863][760]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillDetailsStructure3C0253654A4D340E6B540E8169FD1970.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/SkillDetailsStructure.uasset'
+[2024.06.17-14.56.27:870][760]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 138 ms)
+[2024.06.17-14.56.27:873][760]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.17-14.56.27:873][760]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2024.06.17-14.56.27:873][760]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar
+[2024.06.17-14.56.27:875][760]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.17-14.56.27:875][760]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/HeadsUpDisplay.HeadsUpDisplay
+[2024.06.17-14.56.27:877][760]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure
+[2024.06.17-14.56.40:480][752]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.17-14.56.40:488][752]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.06.17-14.56.40:492][752]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.06.17-14.56.40:506][753]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.06.17-14.56.43:477][109]LogContentBrowser: Attempting asset rename: NewBlueprint -> Ability
+[2024.06.17-14.56.43:483][109]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.06.17-14.56.44:696][254]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/Ability.Ability
+[2024.06.17-14.56.44:696][254]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-14.56.44:696][254]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-14.56.44:833][254]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.17-14.56.54:791][ 98]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-14.56.54:791][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.56.58:329][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.06.17-14.56.59:270][491]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.17-14.56.59:293][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-14.56.59:308][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.06.17-14.56.59:322][491]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.06.17-14.57.03:843][822]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.06.17-14.57.03:850][822]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.06.17-14.57.03:855][822]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.06.17-14.57.03:862][823]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.06.17-14.57.05:447][ 13]LogContentBrowser: Attempting asset rename: NewBlueprint -> Skill
+[2024.06.17-14.57.05:454][ 13]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.06.17-14.57.08:752][134]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.17-14.57.08:753][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-14.57.08:753][134]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-14.57.08:883][134]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.17-14.57.29:733][853]BlueprintLog: New page: Compile Skill
+[2024.06.17-14.57.29:757][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.06.17-14.57.55:277][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.06.17-14.57.55:282][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-14.57.55:320][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset" SILENT=true
+[2024.06.17-14.57.55:323][557]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill
+[2024.06.17-14.57.55:323][557]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill38726793462EF7A43FD45386D99438FA.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset'
+[2024.06.17-14.57.55:335][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 192 ms)
+[2024.06.17-14.57.55:337][557]AssetCheck: New page: Asset Save: Skill
+[2024.06.17-14.57.55:337][557]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.17-14.57.59:839][581]LogSlate: Window 'Skill' being destroyed
+[2024.06.17-14.57.59:844][581]LogSlate: Window 'Skill' being destroyed
+[2024.06.17-14.57.59:848][581]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-14.57.59:848][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.57.59:902][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.17-14.57.59:902][581]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-14.57.59:902][581]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-14.58.11:267][832]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.58.11:284][832]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.58.11:292][833]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.58.45:684][831]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Child
+[2024.06.17-14.58.45:691][831]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.58.57:440][168]LogContentBrowser: Attempting asset rename: Skill_Child -> Ability_AoE
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.SKEL_Ability_AoE_C:UserConstructionScript' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.SKEL_Ability_AoE_C' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE_C' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogMetaData: Removing '/Game/SkillSystem/Ability_AoE.Ability_AoE:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/SkillSystem/Skill_Child.PackageMetaData'
+[2024.06.17-14.58.57:471][168]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-14.58.57:508][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Ability_AoE" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Ability_AoE.uasset" SILENT=true
+[2024.06.17-14.58.57:512][168]LogSavePackage: Moving output files for package: /Game/SkillSystem/Ability_AoE
+[2024.06.17-14.58.57:512][168]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Ability_AoECF9771FA4A4A35276B2EB4BB1DF268E3.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Ability_AoE.uasset'
+[2024.06.17-14.58.57:523][168]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 244 ms)
+[2024.06.17-14.58.57:546][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.17-14.58.57:566][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.06.17-14.58.57:579][168]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.06.17-14.58.57:581][168]AssetCheck: New page: Asset Save: Ability_AoE
+[2024.06.17-14.58.57:581][168]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Ability_AoE.Ability_AoE
+[2024.06.17-14.59.01:067][546]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.01:082][546]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.01:090][547]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.04:463][950]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Child
+[2024.06.17-14.59.04:463][950]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.59.07:091][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.17-14.59.07:942][237]LogSlate: Window 'Delete Assets' being destroyed
+[2024.06.17-14.59.07:964][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.17-14.59.07:979][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-14.59.07:992][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.06.17-14.59.12:361][685]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.12:387][685]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.12:395][686]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.19:280][511]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_AoE
+[2024.06.17-14.59.19:287][511]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.59.22:419][857]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.22:435][857]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.22:443][858]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.27:272][438]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Buff
+[2024.06.17-14.59.27:278][438]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.59.30:176][753]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.30:193][753]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.30:200][754]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.37:220][595]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Debuff
+[2024.06.17-14.59.37:226][595]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.59.40:252][933]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.40:268][933]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.40:276][934]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.46:963][736]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Projectile
+[2024.06.17-14.59.46:969][736]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-14.59.50:780][161]LogContentBrowser: Deferred new asset file creation: Skill_Child
+[2024.06.17-14.59.50:796][161]LogContentBrowser: Creating deferred item: Skill_Child
+[2024.06.17-14.59.50:804][162]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Child).
+[2024.06.17-14.59.58:073][ 34]LogContentBrowser: Attempting asset rename: Skill_Child -> Skill_Melee
+[2024.06.17-14.59.58:079][ 34]LogContentBrowser: End creating deferred item Skill_Child
+[2024.06.17-15.01.09:095][607]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.17-15.01.09:107][607]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.17-15.01.09:115][608]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.17-15.01.12:627][ 30]LogContentBrowser: Attempting asset rename: NewFolder -> Projectiles
+[2024.06.17-15.01.12:627][ 30]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.17-15.01.36:648][610]LogContentBrowser: Deferred new asset file creation: Skill_Projectile_Child
+[2024.06.17-15.01.36:663][610]LogContentBrowser: Creating deferred item: Skill_Projectile_Child
+[2024.06.17-15.01.36:671][611]LogContentBrowser: Renaming the item being created (Deferred Item: Skill_Projectile_Child).
+[2024.06.17-15.01.46:333][769]LogContentBrowser: Attempting asset rename: Skill_Projectile_Child -> Skill_CurseBlast
+[2024.06.17-15.01.46:339][769]LogContentBrowser: End creating deferred item Skill_Projectile_Child
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.SKEL_Skill_CurseBlast_C:UserConstructionScript' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.SKEL_Skill_CurseBlast_C' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast_C' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:221][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:222][314]LogMetaData: Removing '/Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/SkillSystem/Skill_CurseBlast.PackageMetaData'
+[2024.06.17-15.01.51:222][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-15.01.51:266][314]LogSavePackage: Moving output files for package: /Game/SkillSystem/Projectiles/Skill_CurseBlast
+[2024.06.17-15.01.51:266][314]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlast1483DA9B4CF3CD610BDDD3A29BDFE42B.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/Skill_CurseBlast.uasset'
+[2024.06.17-15.01.51:277][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 299 ms)
+[2024.06.17-15.01.51:302][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-15.01.51:319][314]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-15.01.51:333][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.06.17-15.01.51:348][314]AssetCheck: New page: Asset Save: Skill_CurseBlast
+[2024.06.17-15.01.51:348][314]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast
+[2024.06.17-15.01.54:298][663]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast
+[2024.06.17-15.01.54:298][663]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.01.54:298][663]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.01.54:481][663]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.17-15.05.03:197][591]LogDerivedDataCache: C:/Users/jamoh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.047 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 408 files in 741 folders with total size 12 MiB.
+[2024.06.17-15.06.42:219][972]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.17-15.06.42:251][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.17-15.07.09:946][897]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure
+[2024.06.17-15.07.40:866][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.17-15.07.40:866][661]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.07.40:866][661]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.07.43:663][899]BlueprintLog: New page: Compile Skill
+[2024.06.17-15.07.43:713][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.06.17-15.08.14:309][102]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.06.17-15.08.14:323][102]LogContentBrowser: Creating deferred item: NewFolder
+[2024.06.17-15.08.14:330][103]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.06.17-15.08.16:559][370]LogContentBrowser: Attempting asset rename: NewFolder -> Icons
+[2024.06.17-15.08.16:559][370]LogContentBrowser: End creating deferred item NewFolder
+[2024.06.17-15.08.43:404][775]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.17-15.08.43:406][775]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeons' took 0.019
+[2024.06.17-15.08.43:406][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/SkillDetailsStructure] ([1] browsable assets)...
+[2024.06.17-15.08.43:406][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/SkillDetailsStructure]
+[2024.06.17-15.08.43:408][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/SkillDetailsStructure_Auto4
+[2024.06.17-15.08.43:409][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillDetailsStructure_Auto4E54E941940B5A22202C16A8DCC904AAE.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/SkillDetailsStructure_Auto4.uasset'
+[2024.06.17-15.08.43:409][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill] ([2] browsable assets)...
+[2024.06.17-15.08.43:410][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill]
+[2024.06.17-15.08.43:413][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_Auto4
+[2024.06.17-15.08.43:413][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Auto4AF412C424A76BDBB3B6586BC5B31B041.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_Auto4.uasset'
+[2024.06.17-15.08.43:414][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill_AoE] ([2] browsable assets)...
+[2024.06.17-15.08.43:414][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill_AoE]
+[2024.06.17-15.08.43:417][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_AoE_Auto4
+[2024.06.17-15.08.43:417][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_AoE_Auto48B3ADDAA4064F8127D6EFA973596EDC1.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_AoE_Auto4.uasset'
+[2024.06.17-15.08.43:418][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill_Buff] ([2] browsable assets)...
+[2024.06.17-15.08.43:418][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill_Buff]
+[2024.06.17-15.08.43:422][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_Buff_Auto4
+[2024.06.17-15.08.43:422][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Buff_Auto4C0F2C71F45D5C1BB7B93D9AB165F07BC.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_Buff_Auto4.uasset'
+[2024.06.17-15.08.43:423][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill_Debuff] ([2] browsable assets)...
+[2024.06.17-15.08.43:423][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill_Debuff]
+[2024.06.17-15.08.43:426][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_Debuff_Auto4
+[2024.06.17-15.08.43:426][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Debuff_Auto49128B95349A9D52ED658F9B51AE99A50.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_Debuff_Auto4.uasset'
+[2024.06.17-15.08.43:427][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill_Projectile] ([2] browsable assets)...
+[2024.06.17-15.08.43:427][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill_Projectile]
+[2024.06.17-15.08.43:431][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_Projectile_Auto4
+[2024.06.17-15.08.43:431][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Projectile_Auto440A0E27F43E94168417400B4A024A9CD.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_Projectile_Auto4.uasset'
+[2024.06.17-15.08.43:432][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Skill_Melee] ([2] browsable assets)...
+[2024.06.17-15.08.43:432][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Skill_Melee]
+[2024.06.17-15.08.43:435][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Skill_Melee_Auto4
+[2024.06.17-15.08.43:435][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Melee_Auto4AF3AFA014B570073217EA8964B548259.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Skill_Melee_Auto4.uasset'
+[2024.06.17-15.08.43:437][775]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Projectiles/Skill_CurseBlast] ([2] browsable assets)...
+[2024.06.17-15.08.43:437][775]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Projectiles/Skill_CurseBlast]
+[2024.06.17-15.08.43:440][775]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Projectiles/Skill_CurseBlast_Auto4
+[2024.06.17-15.08.43:440][775]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlast_Auto4D9EB90544DA7B46A67087AA0AAC0CE6B.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Projectiles/Skill_CurseBlast_Auto4.uasset'
+[2024.06.17-15.08.43:441][775]LogFileHelpers: Auto-saving content packages took 0.035
+[2024.06.17-15.13.15:056][115]AssetReimport: New page: Outstanding source content changes 17:13:15
+[2024.06.17-15.13.15:060][115]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.17-15.13.15:095][116]LogFactory: FactoryCreateFile: Texture with TextureFactory (0 0 C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Icons/curse blast.png)
+[2024.06.17-15.13.15:183][117]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-15.13.15:307][117]LogSavePackage: Moving output files for package: /Game/SkillSystem/Icons/curse_blast
+[2024.06.17-15.13.15:307][117]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/curse_blast8400BB3B4F36C78CDF61A8801FC69E61.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Icons/curse_blast.uasset'
+[2024.06.17-15.13.15:361][117]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 477 ms)
+[2024.06.17-15.13.15:390][118]AssetCheck: New page: Asset Save: curse_blast
+[2024.06.17-15.13.15:390][118]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/SkillSystem/Icons/curse_blast.curse_blast
+[2024.06.17-15.13.18:364][397]AssetReimport: Importing new asset /Game/SkillSystem/Icons/curse_blast.
+[2024.06.17-15.13.54:952][927]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.17-15.13.54:985][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.06.17-15.14.35:698][762]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.17-15.14.35:698][762]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.14.35:698][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.14.35:706][762]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.14.35:706][762]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.15.46:954][ 33]BlueprintLog: New page: Compile SkillSlot
+[2024.06.17-15.15.46:981][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.17-15.19.59:647][368]BlueprintLog: New page: Compile SkillSlot
+[2024.06.17-15.19.59:676][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.06.17-15.20.43:704][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.17-15.20.43:705][866]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeons' took 0.016
+[2024.06.17-15.20.43:705][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2024.06.17-15.20.43:705][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2024.06.17-15.20.43:711][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto5
+[2024.06.17-15.20.43:711][866]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonGameMode_Auto511CD31F945715092B136CF86C4DC6ABD.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto5.uasset'
+[2024.06.17-15.20.43:712][866]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillSlot] ([2] browsable assets)...
+[2024.06.17-15.20.43:715][866]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot]
+[2024.06.17-15.20.43:715][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot]
+[2024.06.17-15.20.43:723][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto5
+[2024.06.17-15.20.43:723][866]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot_Auto5B6E259204DE62B2DEB13E59954572290.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto5.uasset'
+[2024.06.17-15.20.43:724][866]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SkillSystem/Projectiles/Skill_CurseBlast] ([2] browsable assets)...
+[2024.06.17-15.20.43:724][866]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/Projectiles/Skill_CurseBlast]
+[2024.06.17-15.20.43:728][866]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/Projectiles/Skill_CurseBlast_Auto5
+[2024.06.17-15.20.43:729][866]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlast_Auto58ADB6A884648F565F8CC3E8405FC4BC1.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/Projectiles/Skill_CurseBlast_Auto5.uasset'
+[2024.06.17-15.20.43:729][866]LogFileHelpers: Auto-saving content packages took 0.025
+[2024.06.17-15.21.10:676][197]BlueprintLog: New page: Compile SkillSlot
+[2024.06.17-15.21.10:701][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.17-15.21.18:562][771]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar
+[2024.06.17-15.21.18:562][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.21.18:563][771]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.21.18:571][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.21.18:571][771]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.21.45:402][283]BlueprintLog: New page: Compile ActionBar
+[2024.06.17-15.21.45:428][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.17-15.21.53:270][173]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.17-15.21.53:277][173]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.06.17-15.21.53:277][173]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonGameMode before play...
+[2024.06.17-15.21.53:282][173]LogPlayLevel: [PlayLevel] Compiling HeadsUpDisplay before play...
+[2024.06.17-15.21.53:299][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.17-15.21.53:301][173]LogPlayLevel: PlayLevel: Blueprint regeneration took 23 ms (2 blueprints)
+[2024.06.17-15.21.53:301][173]PIE: New page: PIE session: Dungeons (17 Jun 2024, 17:21:53)
+[2024.06.17-15.21.53:301][173]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.17-15.21.53:303][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001968s)
+[2024.06.17-15.21.53:303][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002001s)
+[2024.06.17-15.21.53:318][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.06.17-15.21.53:319][173]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.17-15.21.53:319][173]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.17-15.21.53:319][173]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.17-15.21.53:320][173]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2024.06.17-15.21.53:320][173]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.17-15.21.53:320][173]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.17-15.21.53:320][173]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.17-15.21.53:320][173]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.17-15.21.53:320][173]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.17-15.21.53:320][173]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.17-15.21.53:322][173]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.17-15.21.53:342][173]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.17-15.21.53:343][173]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.17-15.21.53:343][173]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.17-15.21.53:343][173]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.17-15.21.53:344][173]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.17-15.21.53:344][173]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.17-15.21.53:345][173]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.17-15.21.53:345][173]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.17-15.21.53:345][173]LogInit: FAudioDevice initialized with ID 7.
+[2024.06.17-15.21.53:345][173]LogAudio: Display: Audio Device (ID: 7) registered with world 'Dungeons'.
+[2024.06.17-15.21.53:345][173]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.17-15.21.53:348][173]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.17-15.21.53:348][173]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.17-16.21.53
+[2024.06.17-15.21.53:349][173]LogWorld: Bringing up level for play took: 0.000539
+[2024.06.17-15.21.53:351][173]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.06.17-15.21.53:359][173]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.17-15.21.53:359][173]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.17-15.21.53:359][173]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.17-15.21.53:359][173]PIE: Server logged in
+[2024.06.17-15.21.53:360][173]PIE: Play in editor total start time 0.084 seconds.
+[2024.06.17-15.22.26:427][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-15.22.26:433][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.17-15.22.26:439][ 78]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode
+[2024.06.17-15.22.26:440][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonGameMode942B792949C426622DEA088FF2D9AB02.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset'
+[2024.06.17-15.22.26:446][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/ActionBar" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset" SILENT=true
+[2024.06.17-15.22.26:452][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/ActionBar
+[2024.06.17-15.22.26:453][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBar59D36BB3427CEEA42C080BA296711144.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset'
+[2024.06.17-15.22.26:457][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset" SILENT=true
+[2024.06.17-15.22.26:465][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot
+[2024.06.17-15.22.26:467][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot4F5914984152C6A565373BAE6ED44A70.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset'
+[2024.06.17-15.22.26:470][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/SkillDetailsStructure
+[2024.06.17-15.22.26:471][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillDetailsStructure2F8499894DBDD9F246038791B8ED2B64.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/SkillDetailsStructure.uasset'
+[2024.06.17-15.22.26:472][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset" SILENT=true
+[2024.06.17-15.22.26:475][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill
+[2024.06.17-15.22.26:476][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill3104408746414EE03ADB6E8FDADE148D.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset'
+[2024.06.17-15.22.26:478][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_AoE" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_AoE.uasset" SILENT=true
+[2024.06.17-15.22.26:481][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_AoE
+[2024.06.17-15.22.26:481][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_AoE6B72F78441E5288D7CF15A8C0993BE76.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_AoE.uasset'
+[2024.06.17-15.22.26:484][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Buff" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Buff.uasset" SILENT=true
+[2024.06.17-15.22.26:488][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Buff
+[2024.06.17-15.22.26:488][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Buff9ADFCC0749F5BD1E5194D382B1F16664.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Buff.uasset'
+[2024.06.17-15.22.26:490][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Debuff" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Debuff.uasset" SILENT=true
+[2024.06.17-15.22.26:494][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Debuff
+[2024.06.17-15.22.26:494][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Debuff41C2A2804D39DC2538D107B35A4AC191.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Debuff.uasset'
+[2024.06.17-15.22.26:496][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Projectile" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset" SILENT=true
+[2024.06.17-15.22.26:500][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Projectile
+[2024.06.17-15.22.26:500][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Projectile5C566ED54B1EF36BDD37E7BBF975A4AC.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset'
+[2024.06.17-15.22.26:503][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Melee" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Melee.uasset" SILENT=true
+[2024.06.17-15.22.26:506][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Melee
+[2024.06.17-15.22.26:506][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Melee0FD888EF4BC0DE8E25B0808077FADE68.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Melee.uasset'
+[2024.06.17-15.22.26:513][ 78]LogSavePackage: Moving output files for package: /Game/SkillSystem/Projectiles/Skill_CurseBlast
+[2024.06.17-15.22.26:514][ 78]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlast0EBFE0D44DD51A3444A6B986763F98A9.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/Skill_CurseBlast.uasset'
+[2024.06.17-15.22.26:516][ 78]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 559 ms)
+[2024.06.17-15.22.26:521][ 78]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.17-15.22.26:521][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.BP_ThirdPersonGameMode
+[2024.06.17-15.22.26:521][ 78]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar
+[2024.06.17-15.22.26:523][ 78]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/SkillSystem/SkillDetailsStructure.SkillDetailsStructure
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_AoE.Skill_AoE
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Buff.Skill_Buff
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Debuff.Skill_Debuff
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Projectile.Skill_Projectile
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Melee.Skill_Melee
+[2024.06.17-15.22.26:524][ 78]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Projectiles/Skill_CurseBlast.Skill_CurseBlast
+[2024.06.17-15.22.48:851][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.17-15.23.33:999][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-15.23.33:999][506]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.17-15.23.33:999][506]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.17-15.23.34:000][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-15.23.34:003][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.17-15.23.34:008][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.17-15.23.34:022][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.17-15.23.34:022][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.17-15.23.34:022][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.17-15.23.34:024][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.17-15.23.34:031][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.17-15.23.34:073][508]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.06.17-15.23.36:344][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms

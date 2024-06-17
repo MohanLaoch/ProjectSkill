@@ -10,8 +10,22 @@
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/MasterRoom.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/DungeonGenerator.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1.uasset",
-				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room.uasset",
-				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room2.uasset"
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room2.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/SkillDetailsStructure.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/HeadsUpDisplay.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Ability_AoE.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/Skill_CurseBlast.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Icons/curse_blast.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_AoE.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Buff.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Debuff.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Melee.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room.uasset"
 			]
 		}
 	]
