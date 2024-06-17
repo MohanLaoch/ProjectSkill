@@ -17,7 +17,6 @@
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/HeadsUpDisplay.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset",
-				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Ability_AoE.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/Skill_CurseBlast.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Icons/curse_blast.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_AoE.uasset",
@@ -25,6 +24,9 @@
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Debuff.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Melee.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/CastBar.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/CastBar_UI.uasset",
+				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Ability_AoE.uasset",
 				"C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room.uasset"
 			]
 		}
