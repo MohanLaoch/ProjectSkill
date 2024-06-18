@@ -2140,3 +2140,525 @@ The project directory:
 [2024.06.18-17.43.39:720][442]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
 [2024.06.18-17.43.39:720][442]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Projectile.Skill_Projectile
 [2024.06.18-17.43.39:720][442]LogContentValidation: Display: Validating /Script/Niagara.NiagaraSystem /Game/SkillSystem/Projectiles/CurseBlast/CurseBlast_PS.CurseBlast_PS
+[2024.06.18-17.45.26:654][ 87]BlueprintLog: New page: Compile Skill
+[2024.06.18-17.45.26:692][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-17.48.16:147][352]BlueprintLog: New page: Compile Skill_Projectile
+[2024.06.18-17.48.16:177][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.06.18-17.49.26:538][ 97]BlueprintLog: New page: Compile Skill_Projectile
+[2024.06.18-17.49.26:566][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.18-17.49.28:803][342]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-17.49.28:811][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.18-17.49.28:811][342]PIE: New page: PIE session: Dungeons (18 Jun 2024, 19:49:28)
+[2024.06.18-17.49.28:811][342]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.49.28:813][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002053s)
+[2024.06.18-17.49.28:813][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002089s)
+[2024.06.18-17.49.28:827][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.18-17.49.28:828][342]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-17.49.28:828][342]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-17.49.28:829][342]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-17.49.28:829][342]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2024.06.18-17.49.28:829][342]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-17.49.28:829][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-17.49.28:829][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-17.49.28:830][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-17.49.28:830][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-17.49.28:830][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-17.49.28:831][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-17.49.28:858][342]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-17.49.28:858][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-17.49.28:858][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-17.49.28:858][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-17.49.28:859][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.18-17.49.28:859][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.18-17.49.28:861][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.18-17.49.28:861][342]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.18-17.49.28:861][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.18-17.49.28:861][342]LogAudio: Display: Audio Device (ID: 6) registered with world 'Dungeons'.
+[2024.06.18-17.49.28:861][342]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.18-17.49.28:863][342]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-17.49.28:864][342]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-18.49.28
+[2024.06.18-17.49.28:864][342]LogWorld: Bringing up level for play took: 0.000526
+[2024.06.18-17.49.28:866][342]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.06.18-17.49.28:875][342]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-17.49.28:875][342]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-17.49.28:875][342]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-17.49.28:875][342]PIE: Server logged in
+[2024.06.18-17.49.28:876][342]PIE: Play in editor total start time 0.065 seconds.
+[2024.06.18-17.49.31:203][597]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.49.36:667][ 16]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.49.36:667][ 16]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.49.44:436][707]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.49.44:437][707]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.49.44:437][707]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.49.59:691][697]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.49.59:691][697]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.49.59:691][697]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.49.59:691][697]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.05:376][365]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.05:376][365]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.05:376][365]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.05:376][365]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.05:376][365]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.09:933][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.09:934][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.09:934][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.09:934][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.09:934][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.09:934][908]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.50.31:004][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.50.31:005][363]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.50.39:161][327]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.50.43:217][803]LogBlueprintUserMessages: [Skill_CurseBlast_C_8] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_8] 
+[2024.06.18-17.50.49:436][538]LogBlueprintUserMessages: [Skill_CurseBlast_C_9] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_8] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_9] 
+[2024.06.18-17.51.23:054][369]LogBlueprintUserMessages: [Skill_CurseBlast_C_10] 
+[2024.06.18-17.51.27:134][834]LogBlueprintUserMessages: [Skill_CurseBlast_C_11] Interupt
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_8] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_9] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_10] 
+[2024.06.18-17.51.33:018][482]LogBlueprintUserMessages: [Skill_CurseBlast_C_12] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_4] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_5] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_6] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_7] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_8] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_9] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_10] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_12] 
+[2024.06.18-17.51.36:605][869]LogBlueprintUserMessages: [Skill_CurseBlast_C_13] 
+[2024.06.18-17.52.50:660][661]LogDerivedDataCache: C:/Users/jamoh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.056 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 638 files in 1168 folders with total size 14 MiB.
+[2024.06.18-17.53.17:936][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.53.17:936][742]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.53.17:936][742]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-17.53.17:937][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.53.17:940][742]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-17.53.17:947][742]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.53.17:961][742]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.53.17:962][742]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.18-17.53.17:962][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.18-17.53.17:963][742]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.18-17.53.17:971][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.06.18-17.53.18:011][744]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.06.18-17.53.20:090][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.18-17.53.20:095][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.18-17.53.20:133][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset" SILENT=true
+[2024.06.18-17.53.20:143][973]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill
+[2024.06.18-17.53.20:144][973]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill278848EB4377F79B7AB02788B46A3F99.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset'
+[2024.06.18-17.53.20:151][973]LogSavePackage: Moving output files for package: /Game/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast
+[2024.06.18-17.53.20:152][973]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlastF13292074F9F28DFD62031A45D5757C6.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast.uasset'
+[2024.06.18-17.53.20:154][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset" SILENT=true
+[2024.06.18-17.53.20:164][973]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot
+[2024.06.18-17.53.20:165][973]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlotAC282282473F46A7CD4BD3A8DBDA4CD1.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset'
+[2024.06.18-17.53.20:167][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Projectile" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset" SILENT=true
+[2024.06.18-17.53.20:171][973]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Projectile
+[2024.06.18-17.53.20:172][973]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Projectile31FAFC0A4B45835DD1720488B9F61FCC.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset'
+[2024.06.18-17.53.20:179][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 686 ms)
+[2024.06.18-17.53.20:183][973]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.18-17.53.20:183][973]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.18-17.53.20:183][973]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast.Skill_CurseBlast
+[2024.06.18-17.53.20:183][973]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.18-17.53.20:184][973]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Projectile.Skill_Projectile
+[2024.06.18-17.53.57:496][376]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-17.53.57:521][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.18-17.54.04:050][126]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-17.54.04:078][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.18-17.54.59:409][378]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-17.54.59:436][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-17.55.02:788][695]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-17.55.02:795][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.18-17.55.02:795][695]PIE: New page: PIE session: Dungeons (18 Jun 2024, 19:55:02)
+[2024.06.18-17.55.02:824][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.55.02:826][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001983s)
+[2024.06.18-17.55.02:826][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002020s)
+[2024.06.18-17.55.02:841][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.06.18-17.55.02:842][695]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-17.55.02:842][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-17.55.02:843][695]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-17.55.02:843][695]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2024.06.18-17.55.02:843][695]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-17.55.02:843][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-17.55.02:843][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-17.55.02:844][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-17.55.02:844][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-17.55.02:844][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-17.55.02:845][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-17.55.02:871][695]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-17.55.02:871][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-17.55.02:871][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-17.55.02:871][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-17.55.02:872][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.18-17.55.02:872][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.18-17.55.02:873][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.18-17.55.02:873][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.18-17.55.02:873][695]LogInit: FAudioDevice initialized with ID 7.
+[2024.06.18-17.55.02:873][695]LogAudio: Display: Audio Device (ID: 7) registered with world 'Dungeons'.
+[2024.06.18-17.55.02:873][695]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.18-17.55.02:876][695]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-17.55.02:876][695]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-18.55.02
+[2024.06.18-17.55.02:877][695]LogWorld: Bringing up level for play took: 0.000522
+[2024.06.18-17.55.02:878][695]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.06.18-17.55.02:887][695]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-17.55.02:888][695]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-17.55.02:888][695]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-17.55.02:888][695]PIE: Server logged in
+[2024.06.18-17.55.02:888][695]PIE: Play in editor total start time 0.094 seconds.
+[2024.06.18-17.55.08:199][168]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.55.20:567][313]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] Interupt
+[2024.06.18-17.55.22:673][511]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-17.55.22:673][511]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.55.28:614][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.55.28:614][ 51]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.55.28:614][ 51]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-17.55.28:615][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.55.28:618][ 51]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-17.55.28:624][ 51]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.55.28:639][ 51]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.55.28:639][ 51]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.18-17.55.28:639][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.18-17.55.28:641][ 51]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.18-17.55.28:649][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.18-17.55.28:682][ 52]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.06.18-17.55.29:979][190]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-17.55.30:006][190]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.18-17.56.21:316][654]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.18-17.56.36:451][902]LogEditorTransaction: Undo Make New Scene Root
+[2024.06.18-17.56.46:881][748]LogEditorTransaction: Undo Remove Components
+[2024.06.18-17.56.56:537][412]BlueprintLog: New page: Compile Skill
+[2024.06.18-17.56.56:585][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.06.18-17.58.05:573][367]BlueprintLog: New page: Compile Skill_Projectile
+[2024.06.18-17.58.05:603][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.18-17.58.08:197][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-17.58.08:204][618]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.06.18-17.58.08:207][618]LogPlayLevel: [PlayLevel] Compiling SkillSlot before play...
+[2024.06.18-17.58.08:236][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.18-17.58.08:239][618]LogPlayLevel: PlayLevel: Blueprint regeneration took 34 ms (1 blueprints)
+[2024.06.18-17.58.08:239][618]PIE: New page: PIE session: Dungeons (18 Jun 2024, 19:58:08)
+[2024.06.18-17.58.08:239][618]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.58.08:241][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001955s)
+[2024.06.18-17.58.08:241][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.001987s)
+[2024.06.18-17.58.08:256][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-17.58.08:257][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-17.58.08:257][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-17.58.08:257][618]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-17.58.08:257][618]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2024.06.18-17.58.08:257][618]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.06.18-17.58.08:257][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-17.58.08:257][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-17.58.08:257][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-17.58.08:257][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-17.58.08:257][618]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-17.58.08:258][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-17.58.08:258][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-17.58.08:258][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-17.58.08:258][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-17.58.08:258][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-17.58.08:258][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-17.58.08:260][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-17.58.08:286][618]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-17.58.08:286][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-17.58.08:286][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-17.58.08:286][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-17.58.08:287][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.06.18-17.58.08:287][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.06.18-17.58.08:288][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.06.18-17.58.08:288][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.06.18-17.58.08:288][618]LogInit: FAudioDevice initialized with ID 8.
+[2024.06.18-17.58.08:288][618]LogAudio: Display: Audio Device (ID: 8) registered with world 'Dungeons'.
+[2024.06.18-17.58.08:288][618]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.18-17.58.08:291][618]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-17.58.08:292][618]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-18.58.08
+[2024.06.18-17.58.08:292][618]LogWorld: Bringing up level for play took: 0.000550
+[2024.06.18-17.58.08:294][618]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.06.18-17.58.08:303][618]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-17.58.08:303][618]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-17.58.08:303][618]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-17.58.08:303][618]PIE: Server logged in
+[2024.06.18-17.58.08:304][618]PIE: Play in editor total start time 0.1 seconds.
+[2024.06.18-17.58.11:969][ 30]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] Interupt
+[2024.06.18-17.58.14:064][281]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.58.29:624][939]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-17.58.29:624][939]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-17.58.33:242][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.58.33:242][363]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-17.58.33:242][363]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-17.58.33:243][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.58.33:246][363]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-17.58.33:252][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-17.58.33:267][363]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-17.58.33:268][363]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.06.18-17.58.33:268][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.18-17.58.33:269][363]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.06.18-17.58.33:277][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.18-17.58.33:312][364]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.06.18-17.59.13:815][978]BlueprintLog: New page: Compile Skill
+[2024.06.18-17.59.13:862][978]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.18-17.59.38:794][922]LogEditorTransaction: Undo Collision Channel Changes
+[2024.06.18-17.59.39:408][944]LogEditorTransaction: Undo Collision Channel Changes
+[2024.06.18-17.59.39:848][976]LogEditorTransaction: Undo Collision Channel Changes
+[2024.06.18-17.59.40:251][  4]LogEditorTransaction: Undo Collision Channel Changes
+[2024.06.18-17.59.58:306][619]BlueprintLog: New page: Compile Skill_Projectile
+[2024.06.18-17.59.58:337][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.06.18-18.00.01:648][847]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-18.00.01:655][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.18-18.00.01:655][847]PIE: New page: PIE session: Dungeons (18 Jun 2024, 20:00:01)
+[2024.06.18-18.00.01:655][847]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.00.01:657][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002028s)
+[2024.06.18-18.00.01:657][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002061s)
+[2024.06.18-18.00.01:671][847]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.06.18-18.00.01:673][847]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-18.00.01:674][847]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-18.00.01:674][847]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-18.00.01:674][847]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2024.06.18-18.00.01:674][847]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-18.00.01:674][847]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-18.00.01:675][847]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-18.00.01:675][847]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-18.00.01:675][847]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-18.00.01:675][847]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-18.00.01:677][847]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-18.00.01:704][847]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-18.00.01:704][847]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-18.00.01:704][847]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-18.00.01:704][847]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-18.00.01:706][847]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.06.18-18.00.01:706][847]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.06.18-18.00.01:707][847]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.06.18-18.00.01:707][847]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.06.18-18.00.01:707][847]LogInit: FAudioDevice initialized with ID 9.
+[2024.06.18-18.00.01:707][847]LogAudio: Display: Audio Device (ID: 9) registered with world 'Dungeons'.
+[2024.06.18-18.00.01:707][847]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.18-18.00.01:710][847]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-18.00.01:710][847]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-19.00.01
+[2024.06.18-18.00.01:711][847]LogWorld: Bringing up level for play took: 0.000521
+[2024.06.18-18.00.01:712][847]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.06.18-18.00.01:722][847]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-18.00.01:722][847]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-18.00.01:722][847]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-18.00.01:722][847]PIE: Server logged in
+[2024.06.18-18.00.01:723][847]PIE: Play in editor total start time 0.068 seconds.
+[2024.06.18-18.00.04:351][ 31]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] Interupt
+[2024.06.18-18.00.06:413][184]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-18.00.12:066][592]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-18.00.16:884][958]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-18.00.23:081][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.00.23:081][423]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.00.23:081][423]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-18.00.23:082][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.00.23:084][423]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-18.00.23:091][423]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.00.23:106][423]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.00.23:106][423]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.06.18-18.00.23:106][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.18-18.00.23:108][423]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.06.18-18.00.23:115][423]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.06.18-18.00.23:153][424]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.06.18-18.00.34:189][359]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-18.00.34:217][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-18.00.35:305][445]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-18.00.35:312][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.18-18.00.35:312][445]PIE: New page: PIE session: Dungeons (18 Jun 2024, 20:00:35)
+[2024.06.18-18.00.35:312][445]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.00.35:314][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001995s)
+[2024.06.18-18.00.35:314][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002027s)
+[2024.06.18-18.00.35:328][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.18-18.00.35:331][445]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-18.00.35:331][445]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-18.00.35:331][445]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-18.00.35:332][445]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2024.06.18-18.00.35:332][445]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-18.00.35:332][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-18.00.35:332][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-18.00.35:332][445]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-18.00.35:332][445]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-18.00.35:332][445]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-18.00.35:334][445]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-18.00.35:359][445]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-18.00.35:359][445]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-18.00.35:359][445]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-18.00.35:359][445]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-18.00.35:360][445]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.06.18-18.00.35:360][445]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.06.18-18.00.35:361][445]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.06.18-18.00.35:361][445]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.06.18-18.00.35:361][445]LogInit: FAudioDevice initialized with ID 10.
+[2024.06.18-18.00.35:361][445]LogAudio: Display: Audio Device (ID: 10) registered with world 'Dungeons'.
+[2024.06.18-18.00.35:361][445]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.18-18.00.35:364][445]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-18.00.35:364][445]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-19.00.35
+[2024.06.18-18.00.35:365][445]LogWorld: Bringing up level for play took: 0.000501
+[2024.06.18-18.00.35:366][445]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.06.18-18.00.35:375][445]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-18.00.35:375][445]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-18.00.35:375][445]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-18.00.35:375][445]PIE: Server logged in
+[2024.06.18-18.00.35:376][445]PIE: Play in editor total start time 0.064 seconds.
+[2024.06.18-18.00.37:544][590]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] Interupt
+[2024.06.18-18.00.39:740][750]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-18.00.43:026][994]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-18.00.50:901][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.00.50:901][573]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.00.50:901][573]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-18.00.50:901][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.00.50:904][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-18.00.50:911][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.00.50:925][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.00.50:925][573]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.06.18-18.00.50:925][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.18-18.00.50:927][573]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.06.18-18.00.50:935][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.06.18-18.00.50:971][574]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.06.18-18.00.54:675][879]BlueprintLog: New page: Compile Skill_CurseBlast
+[2024.06.18-18.00.54:703][879]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-18.00.59:802][304]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.18-18.00.59:810][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.18-18.00.59:810][304]PIE: New page: PIE session: Dungeons (18 Jun 2024, 20:00:59)
+[2024.06.18-18.00.59:810][304]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.00.59:812][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001883s)
+[2024.06.18-18.00.59:812][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.001914s)
+[2024.06.18-18.00.59:826][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.18-18.00.59:829][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.18-18.00.59:829][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.18-18.00.59:829][304]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.18-18.00.59:830][304]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2024.06.18-18.00.59:830][304]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.18-18.00.59:830][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.18-18.00.59:830][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.18-18.00.59:830][304]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.18-18.00.59:830][304]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.18-18.00.59:830][304]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.18-18.00.59:832][304]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.18-18.00.59:858][304]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.18-18.00.59:858][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.18-18.00.59:858][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.18-18.00.59:858][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.18-18.00.59:859][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.06.18-18.00.59:859][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.06.18-18.00.59:860][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.06.18-18.00.59:860][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.06.18-18.00.59:860][304]LogInit: FAudioDevice initialized with ID 11.
+[2024.06.18-18.00.59:860][304]LogAudio: Display: Audio Device (ID: 11) registered with world 'Dungeons'.
+[2024.06.18-18.00.59:860][304]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.18-18.00.59:863][304]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.18-18.00.59:864][304]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.18-19.00.59
+[2024.06.18-18.00.59:864][304]LogWorld: Bringing up level for play took: 0.000508
+[2024.06.18-18.00.59:866][304]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.06.18-18.00.59:875][304]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.18-18.00.59:875][304]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.18-18.00.59:875][304]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.18-18.00.59:875][304]PIE: Server logged in
+[2024.06.18-18.00.59:876][304]PIE: Play in editor total start time 0.066 seconds.
+[2024.06.18-18.01.03:193][531]LogBlueprintUserMessages: [Skill_CurseBlast_C_0] 
+[2024.06.18-18.01.07:123][823]LogBlueprintUserMessages: [Skill_CurseBlast_C_1] 
+[2024.06.18-18.01.11:694][157]LogBlueprintUserMessages: [Skill_CurseBlast_C_2] 
+[2024.06.18-18.01.14:725][381]LogBlueprintUserMessages: [Skill_CurseBlast_C_3] 
+[2024.06.18-18.01.31:420][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.01.31:420][600]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.18-18.01.31:420][600]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.18-18.01.31:421][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.01.31:424][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.18-18.01.31:430][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.18-18.01.31:445][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.18-18.01.31:446][600]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.06.18-18.01.31:446][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.18-18.01.31:448][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.06.18-18.01.31:455][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.18-18.01.31:492][601]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.06.18-18.01.48:214][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.18-18.01.48:219][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.18-18.01.48:251][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset" SILENT=true
+[2024.06.18-18.01.48:261][ 22]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill
+[2024.06.18-18.01.48:262][ 22]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillEB4DFACB4558639D910C33B77D202181.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill.uasset'
+[2024.06.18-18.01.48:269][ 22]LogSavePackage: Moving output files for package: /Game/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast
+[2024.06.18-18.01.48:270][ 22]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_CurseBlast2C61C3C14EDD7A6F6244B4A7A3316A34.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast.uasset'
+[2024.06.18-18.01.48:274][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset" SILENT=true
+[2024.06.18-18.01.48:284][ 22]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot
+[2024.06.18-18.01.48:286][ 22]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot7FD5A59542D61FE4325EF8A3FCD45C9B.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset'
+[2024.06.18-18.01.48:288][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/Skill_Projectile" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset" SILENT=true
+[2024.06.18-18.01.48:293][ 22]LogSavePackage: Moving output files for package: /Game/SkillSystem/Skill_Projectile
+[2024.06.18-18.01.48:294][ 22]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Skill_Projectile670150DF43E5312BAE9529ADC728AD92.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/Skill_Projectile.uasset'
+[2024.06.18-18.01.48:300][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 767 ms)
+[2024.06.18-18.01.48:304][ 22]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.18-18.01.48:304][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.18-18.01.48:304][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Projectiles/CurseBlast/Skill_CurseBlast.Skill_CurseBlast
+[2024.06.18-18.01.48:304][ 22]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.18-18.01.48:305][ 22]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/SkillSystem/Skill_Projectile.Skill_Projectile
