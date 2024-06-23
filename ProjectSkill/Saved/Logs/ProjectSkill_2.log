@@ -983,3 +983,1517 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.23-12.55.49:806][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
 [2024.06.23-12.55.50:009][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
 [2024.06.23-12.55.50:009][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.06.23-12.55.50:479][  0]LogCollectionManager: Loaded 0 collections in 0.000989 seconds
+[2024.06.23-12.55.50:481][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Collections/' took 0.00s
+[2024.06.23-12.55.50:483][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/Developers/jamoh/Collections/' took 0.00s
+[2024.06.23-12.55.50:485][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/Collections/' took 0.00s
+[2024.06.23-12.55.51:118][  0]LogEngine: Initializing Engine...
+[2024.06.23-12.55.51:125][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.06.23-12.55.51:529][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.06.23-12.55.51:558][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.55.51:558][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-12.55.51:565][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.06.23-12.55.51:566][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.06.23-12.55.51:566][  0]LogInit: Texture streaming: Enabled
+[2024.06.23-12.55.51:643][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 5.3.2-29314046+++UE5+Release-5.3
+[2024.06.23-12.55.51:673][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.06.23-12.55.51:721][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.06.23-12.55.51:726][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.06.23-12.55.51:726][  0]LogAudio: Display: AudioInfo: 'BINKA' Registered
+[2024.06.23-12.55.51:727][  0]LogAudio: Display: AudioInfo: 'PCM' Registered
+[2024.06.23-12.55.51:727][  0]LogAudio: Display: AudioInfo: 'ADPCM' Registered
+[2024.06.23-12.55.51:727][  0]LogAudio: Display: AudioInfo: 'OGG' Registered
+[2024.06.23-12.55.51:727][  0]LogAudio: Display: AudioInfo: 'OPUS' Registered
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-12.55.51:728][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-12.55.51:728][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-12.55.51:767][  0]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-12.55.51:818][  0]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-12.55.51:819][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-12.55.51:840][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-12.55.51:840][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-12.55.51:842][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2024.06.23-12.55.51:842][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.06.23-12.55.51:843][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.06.23-12.55.51:843][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=1
+[2024.06.23-12.55.51:843][  0]LogInit: FAudioDevice initialized with ID 1.
+[2024.06.23-12.55.51:843][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.06.23-12.55.51:844][  0]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 1
+[2024.06.23-12.55.51:904][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2024.06.23-12.55.51:908][  0]LogInit: Undo buffer set to 32 MB
+[2024.06.23-12.55.51:908][  0]LogInit: Transaction tracking system initialized
+[2024.06.23-12.55.51:993][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SourceControl/UncontrolledChangelists.json
+[2024.06.23-12.55.51:993][  0]LogSourceControl: Uncontrolled asset enumeration started...
+[2024.06.23-12.55.51:996][  0]LogSourceControl: Uncontrolled asset enumeration finished in 0.002617 seconds (Found 134 uncontrolled assets)
+[2024.06.23-12.55.52:022][  0]BlueprintLog: New page: Editor Load
+[2024.06.23-12.55.52:370][  0]LocalizationService: Localization service is disabled
+[2024.06.23-12.55.52:434][  0]TimingProfiler: Initialize
+[2024.06.23-12.55.52:434][  0]TimingProfiler: OnSessionChanged
+[2024.06.23-12.55.52:434][  0]LoadingProfiler: Initialize
+[2024.06.23-12.55.52:434][  0]LoadingProfiler: OnSessionChanged
+[2024.06.23-12.55.52:434][  0]NetworkingProfiler: Initialize
+[2024.06.23-12.55.52:434][  0]NetworkingProfiler: OnSessionChanged
+[2024.06.23-12.55.52:434][  0]MemoryProfiler: Initialize
+[2024.06.23-12.55.52:434][  0]MemoryProfiler: OnSessionChanged
+[2024.06.23-12.55.52:847][  0]LogSlate: Took 0.004049 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.06.23-12.56.12:976][  0]LogSlate: Window 'Warning: Low Drive Space' being destroyed
+[2024.06.23-12.56.12:978][  0]LogWindowsTextInputMethodSystem: Activated input method: English (Ireland) - (Keyboard).
+[2024.06.23-12.56.12:990][  0]Message dialog closed, result: Ok, title: Warning: Low Drive Space, text: The following locations have limited free space. To avoid potential problems, please consider freeing up at least the amounts recommended below.
+
+The project directory:
+		C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/
+		Recommended: 5,120 MB
+		Free: 4,172 MB
+[2024.06.23-12.56.13:304][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/' took 0.03s
+[2024.06.23-12.56.13:540][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.06.23-12.56.14:209][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.06.23-12.56.14:211][  0]SourceControl: Revision control is disabled
+[2024.06.23-12.56.14:211][  0]LogUnrealEdMisc: Loading editor; pre map load, took 48.407
+[2024.06.23-12.56.14:211][  0]Cmd: MAP LOAD FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/Dungeons.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.06.23-12.56.14:211][  0]LightingResults: New page: Lighting Build
+[2024.06.23-12.56.14:213][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-12.56.14:213][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-12.56.14:214][  0]MapCheck: New page: Map Check
+[2024.06.23-12.56.14:214][  0]LightingResults: New page: Lighting Build
+[2024.06.23-12.56.14:217][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-12.56.14:220][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.06.23-12.56.14:227][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.06.23-12.56.14:842][  0]LogAssetRegistry: Display: Asset registry cache written as 21.3 MiB to C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Intermediate/CachedAssetRegistry_*.bin
+[2024.06.23-12.56.17:048][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.06.23-12.56.17:769][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Dungeons'.
+[2024.06.23-12.56.17:769][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.56.17:769][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-12.56.17:769][  0]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-12.56.17:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.06.23-12.56.17:797][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.06.23-12.56.17:798][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.06.23-12.56.17:798][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.244ms to complete.
+[2024.06.23-12.56.17:815][  0]LogUnrealEdMisc: Total Editor Startup Time, took 52.011
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: ================================================
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 3.20 GiB budget. Usage: 0.00%
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.23-12.56.17:815][  0]LogShaderCompilers: Display: ================================================
+[2024.06.23-12.56.17:832][  0]LogWindowsTextInputMethodSystem: Activated input method: English (Ireland) - (Keyboard).
+[2024.06.23-12.56.17:940][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.56.17:951][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.56.17:961][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.56.17:971][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.56.18:002][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:006][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:007][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:012][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:012][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:018][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:018][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:024][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:025][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:029][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:030][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:034][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:034][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:039][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:039][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:044][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:044][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:050][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:050][  0]LogPakFile: Initializing PakPlatformFile
+[2024.06.23-12.56.18:054][  0]LogPakFile: Display: Mounted Pak file 'D:/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.06.23-12.56.18:479][  0]LogSlate: Took 0.004295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.06.23-12.56.18:485][  0]LogSlate: Took 0.004115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.06.23-12.56.18:490][  0]LogSlate: Took 0.003895 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.06.23-12.56.18:526][  0]LogViewport: Scene viewport resized to 1095x561, mode Windowed.
+[2024.06.23-12.56.18:597][  0]LogSlate: Took 0.004508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.06.23-12.56.18:881][  0]LogStall: Startup...
+[2024.06.23-12.56.18:883][  0]LogStall: Startup complete.
+[2024.06.23-12.56.18:953][  0]LogLoad: (Engine Initialization) Total time: 53.15 seconds
+[2024.06.23-12.56.18:953][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.06.23-12.56.18:975][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.56.19:075][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.06.23-12.56.19:452][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.06.23-12.56.19:453][  1]Running Python start-up script 'D:/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.212265 secs
+[2024.06.23-12.56.19:512][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.56.19:537][  1]LogAssetRegistry: AssetRegistryGather time 0.1089s: AssetDataDiscovery 0.0266s, AssetDataGather 0.0291s, StoreResults 0.0532s.
+[2024.06.23-12.56.19:585][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2024.06.23-12.56.19:868][  4]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.56.23:019][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-12.56.23:026][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-12.56.23:027][216]PIE: New page: PIE session: Dungeons (23 Jun 2024, 14:56:23)
+[2024.06.23-12.56.23:030][216]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.06.23-12.56.23:030][216]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.06.23-12.56.23:030][216]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-12.56.23:033][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002906s)
+[2024.06.23-12.56.23:033][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002944s)
+[2024.06.23-12.56.23:037][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.06.23-12.56.23:038][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.56.23:038][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-12.56.23:038][216]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-12.56.23:039][216]LogPlayLevel: PIE: World Init took: (0.000931s)
+[2024.06.23-12.56.23:039][216]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-12.56.23:039][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-12.56.23:039][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-12.56.23:039][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-12.56.23:039][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-12.56.23:039][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-12.56.23:041][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-12.56.23:066][216]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-12.56.23:067][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-12.56.23:067][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-12.56.23:067][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-12.56.23:068][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.06.23-12.56.23:068][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.06.23-12.56.23:069][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.06.23-12.56.23:069][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.06.23-12.56.23:069][216]LogInit: FAudioDevice initialized with ID 2.
+[2024.06.23-12.56.23:069][216]LogAudio: Display: Audio Device (ID: 2) registered with world 'Dungeons'.
+[2024.06.23-12.56.23:069][216]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.06.23-12.56.23:072][216]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-12.56.23:078][216]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-13.56.23
+[2024.06.23-12.56.23:080][216]LogWorld: Bringing up level for play took: 0.007245
+[2024.06.23-12.56.23:082][216]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2024.06.23-12.56.23:090][216]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-12.56.23:090][216]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-12.56.23:099][216]PIE: Server logged in
+[2024.06.23-12.56.23:099][216]PIE: Play in editor total start time 0.073 seconds.
+[2024.06.23-12.56.43:200][377]LogBlueprintUserMessages: [BP_ThirdPersonCharacter_C_0] Hello
+[2024.06.23-12.57.16:957][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.57.16:957][743]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-12.57.16:957][743]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-12.57.16:970][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-12.57.16:973][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-12.57.16:977][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-12.57.16:982][743]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-12.57.16:982][743]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.06.23-12.57.16:982][743]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.06.23-12.57.16:984][743]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.06.23-12.57.16:987][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-12.57.16:997][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.06.23-12.57.17:029][744]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.06.23-12.57.35:911][949]LogDerivedDataCache: C:/Users/jamoh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1767 files in 2923 folders with total size 98 MiB.
+[2024.06.23-12.57.56:447][701]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.57.57:098][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.23-12.57.57:098][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-12.57.57:098][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-12.57.57:113][738]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.06.23-12.57.58:448][738]LogSlate: Took 0.004351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.23-12.57.58:666][740]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.01.55:459][650]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-13.01.55:529][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.06.23-13.02.09:295][805]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-13.02.09:303][805]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-13.02.09:303][805]PIE: New page: PIE session: Dungeons (23 Jun 2024, 15:02:09)
+[2024.06.23-13.02.09:342][805]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.02.09:345][805]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002716s)
+[2024.06.23-13.02.09:345][805]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002753s)
+[2024.06.23-13.02.09:361][805]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.06.23-13.02.09:362][805]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.02.09:362][805]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.02.09:363][805]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-13.02.09:363][805]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2024.06.23-13.02.09:363][805]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-13.02.09:363][805]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-13.02.09:363][805]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-13.02.09:364][805]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-13.02.09:364][805]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-13.02.09:364][805]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-13.02.09:366][805]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-13.02.09:393][805]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-13.02.09:393][805]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-13.02.09:393][805]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-13.02.09:393][805]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-13.02.09:394][805]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.06.23-13.02.09:394][805]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.06.23-13.02.09:395][805]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.06.23-13.02.09:395][805]LogInit: FAudioDevice initialized with ID 3.
+[2024.06.23-13.02.09:395][805]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.06.23-13.02.09:395][805]LogAudio: Display: Audio Device (ID: 3) registered with world 'Dungeons'.
+[2024.06.23-13.02.09:395][805]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.23-13.02.09:398][805]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-13.02.09:403][805]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-14.02.09
+[2024.06.23-13.02.09:405][805]LogWorld: Bringing up level for play took: 0.006858
+[2024.06.23-13.02.09:407][805]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.06.23-13.02.09:412][805]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-13.02.09:412][805]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-13.02.09:420][805]PIE: Server logged in
+[2024.06.23-13.02.09:421][805]PIE: Play in editor total start time 0.118 seconds.
+[2024.06.23-13.02.12:588][  4]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.02.12:588][  4]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-13.02.12:588][  4]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-13.02.17:957][376]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.02.17:957][376]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.02.20:041][520]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.02.20:041][520]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.06.23-13.02.20:351][542]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.02.20:351][542]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.02.21:767][642]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.02.21:767][642]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.06.23-13.02.22:292][679]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.02.22:292][679]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.02.23:307][750]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.02.23:307][750]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.06.23-13.02.23:575][769]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.02.23:575][769]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.02.33:653][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.02.33:653][525]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.02.33:653][525]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.02.33:666][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.02.33:669][525]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-13.02.33:675][525]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.02.33:690][525]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.02.33:690][525]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.06.23-13.02.33:690][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.23-13.02.33:691][525]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.06.23-13.02.33:704][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.23-13.02.33:737][526]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.06.23-13.02.54:145][217]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-13.02.54:212][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.06.23-13.02.56:069][381]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-13.02.56:076][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-13.02.56:077][381]PIE: New page: PIE session: Dungeons (23 Jun 2024, 15:02:56)
+[2024.06.23-13.02.56:102][381]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.02.56:105][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002635s)
+[2024.06.23-13.02.56:105][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002678s)
+[2024.06.23-13.02.56:121][381]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.23-13.02.56:123][381]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.02.56:123][381]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.02.56:124][381]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-13.02.56:124][381]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2024.06.23-13.02.56:124][381]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-13.02.56:124][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-13.02.56:124][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-13.02.56:125][381]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-13.02.56:125][381]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-13.02.56:125][381]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-13.02.56:126][381]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-13.02.56:158][381]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-13.02.56:158][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-13.02.56:158][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-13.02.56:158][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-13.02.56:159][381]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.06.23-13.02.56:159][381]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.06.23-13.02.56:161][381]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.06.23-13.02.56:161][381]LogInit: FAudioDevice initialized with ID 4.
+[2024.06.23-13.02.56:161][381]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.06.23-13.02.56:161][381]LogAudio: Display: Audio Device (ID: 4) registered with world 'Dungeons'.
+[2024.06.23-13.02.56:161][381]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.23-13.02.56:163][381]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-13.02.56:169][381]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-14.02.56
+[2024.06.23-13.02.56:171][381]LogWorld: Bringing up level for play took: 0.007066
+[2024.06.23-13.02.56:173][381]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.06.23-13.02.56:178][381]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-13.02.56:178][381]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-13.02.56:186][381]PIE: Server logged in
+[2024.06.23-13.02.56:187][381]PIE: Play in editor total start time 0.111 seconds.
+[2024.06.23-13.02.58:903][547]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.02.58:903][547]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-13.02.58:903][547]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-13.03.07:847][119]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.03.07:847][119]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.03.14:592][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.03.14:592][560]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.03.14:593][560]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.03.14:605][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.03.14:608][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-13.03.14:615][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.03.14:630][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.03.14:632][560]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.23-13.03.14:632][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.23-13.03.14:634][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.23-13.03.14:647][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.06.23-13.03.14:681][561]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.06.23-13.04.59:733][447]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-13.04.59:799][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.23-13.05.02:488][696]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-13.05.02:496][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-13.05.02:496][696]PIE: New page: PIE session: Dungeons (23 Jun 2024, 15:05:02)
+[2024.06.23-13.05.02:520][696]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.05.02:523][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002687s)
+[2024.06.23-13.05.02:523][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002726s)
+[2024.06.23-13.05.02:540][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.23-13.05.02:542][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.05.02:542][696]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.05.02:542][696]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-13.05.02:542][696]LogPlayLevel: PIE: World Init took: (0.000913s)
+[2024.06.23-13.05.02:542][696]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-13.05.02:543][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-13.05.02:543][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-13.05.02:543][696]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-13.05.02:543][696]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-13.05.02:543][696]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-13.05.02:545][696]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-13.05.02:571][696]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-13.05.02:572][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-13.05.02:572][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-13.05.02:572][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-13.05.02:573][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.06.23-13.05.02:573][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.06.23-13.05.02:574][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.06.23-13.05.02:574][696]LogInit: FAudioDevice initialized with ID 5.
+[2024.06.23-13.05.02:575][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.06.23-13.05.02:575][696]LogAudio: Display: Audio Device (ID: 5) registered with world 'Dungeons'.
+[2024.06.23-13.05.02:575][696]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.23-13.05.02:577][696]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-13.05.02:583][696]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-14.05.02
+[2024.06.23-13.05.02:584][696]LogWorld: Bringing up level for play took: 0.006865
+[2024.06.23-13.05.02:586][696]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.06.23-13.05.02:591][696]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-13.05.02:591][696]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-13.05.02:600][696]PIE: Server logged in
+[2024.06.23-13.05.02:601][696]PIE: Play in editor total start time 0.105 seconds.
+[2024.06.23-13.05.04:954][852]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-13.05.04:954][852]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-13.05.04:954][852]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-13.05.10:476][228]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-13.05.10:477][228]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-13.05.24:361][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.05.24:361][237]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.05.24:361][237]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.05.24:374][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.05.24:377][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-13.05.24:384][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.05.24:398][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.05.24:398][237]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.06.23-13.05.24:399][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.23-13.05.24:400][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.06.23-13.05.24:416][237]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.06.23-13.05.24:451][238]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.06.23-13.06.27:668][857]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-13.06.27:737][857]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.23-13.07.59:748][601]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.23-13.08.40:579][761]LogEditorTransaction: Undo Add Node
+[2024.06.23-13.08.54:974][754]LogSlate: Window 'Delete Variable' being destroyed
+[2024.06.23-13.09.35:931][845]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-13.09.36:015][845]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.06.23-13.10.22:513][871]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-13.10.22:521][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-13.10.22:521][871]PIE: New page: PIE session: Dungeons (23 Jun 2024, 15:10:22)
+[2024.06.23-13.10.22:521][871]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.10.22:524][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002680s)
+[2024.06.23-13.10.22:524][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002718s)
+[2024.06.23-13.10.22:540][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.06.23-13.10.22:544][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.10.22:544][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.10.22:544][871]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-13.10.22:544][871]LogPlayLevel: PIE: World Init took: (0.000976s)
+[2024.06.23-13.10.22:545][871]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-13.10.22:545][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-13.10.22:545][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-13.10.22:545][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-13.10.22:545][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-13.10.22:545][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-13.10.22:547][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-13.10.22:572][871]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-13.10.22:572][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-13.10.22:572][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-13.10.22:572][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-13.10.22:573][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.06.23-13.10.22:573][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.06.23-13.10.22:574][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.06.23-13.10.22:574][871]LogInit: FAudioDevice initialized with ID 6.
+[2024.06.23-13.10.22:574][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.06.23-13.10.22:574][871]LogAudio: Display: Audio Device (ID: 6) registered with world 'Dungeons'.
+[2024.06.23-13.10.22:574][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.23-13.10.22:577][871]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-13.10.22:583][871]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-14.10.22
+[2024.06.23-13.10.22:584][871]LogWorld: Bringing up level for play took: 0.006810
+[2024.06.23-13.10.22:586][871]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.06.23-13.10.22:592][871]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-13.10.22:592][871]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-13.10.22:601][871]PIE: Server logged in
+[2024.06.23-13.10.22:602][871]PIE: Play in editor total start time 0.081 seconds.
+[2024.06.23-13.10.24:957][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.10.24:957][ 17]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.10.24:957][ 17]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.10.24:969][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.10.24:972][ 17]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-13.10.24:979][ 17]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.10.24:994][ 17]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-13.10.24:996][ 17]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.06.23-13.10.24:996][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.23-13.10.24:998][ 17]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.06.23-13.10.25:001][ 17]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.10.25:009][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.06.23-13.10.25:044][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.06.23-13.10.37:269][  9]LogContentBrowser: Deferred new asset file creation: EnergyPotion1
+[2024.06.23-13.10.37:279][  9]LogContentBrowser: Creating deferred item: EnergyPotion1
+[2024.06.23-13.10.37:290][ 10]LogContentBrowser: Renaming the item being created (Deferred Item: EnergyPotion1).
+[2024.06.23-13.10.41:320][412]LogContentBrowser: Attempting asset rename: EnergyPotion1 -> HealthPotion
+[2024.06.23-13.10.41:340][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.23-13.10.41:348][412]LogContentBrowser: End creating deferred item EnergyPotion1
+[2024.06.23-13.10.41:349][412]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.10.42:520][502]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/HealthPotion.HealthPotion
+[2024.06.23-13.10.42:520][502]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.10.42:520][502]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.10.43:907][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.10.59:114][657]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.23-13.11.13:775][611]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.13:836][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.13:891][613]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.13:951][614]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.14:005][615]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.14:060][616]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.14:127][617]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.11.14:178][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.12.32:134][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.23-13.12.32:137][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeons' took 0.018
+[2024.06.23-13.12.32:138][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.06.23-13.12.32:138][249]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.12.32:247][249]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2024.06.23-13.12.32:254][249]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.06.23-13.12.32:254][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.06.23-13.12.32:263][249]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.008526 seconds
+[2024.06.23-13.12.32:295][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1
+[2024.06.23-13.12.32:296][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonCharacter_Auto1B9E40BC2418E1FEEDE0B6E97ABC4C1CB.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto1.uasset'
+[2024.06.23-13.12.32:298][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/ActionBar] ([2] browsable assets)...
+[2024.06.23-13.12.32:303][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar]
+[2024.06.23-13.12.32:303][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/ActionBar]
+[2024.06.23-13.12.32:334][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/ActionBar_Auto1
+[2024.06.23-13.12.32:335][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBar_Auto1901754F64AD4068D90085385179B2506.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/ActionBar_Auto1.uasset'
+[2024.06.23-13.12.32:337][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillSlot] ([2] browsable assets)...
+[2024.06.23-13.12.32:339][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot]
+[2024.06.23-13.12.32:339][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot]
+[2024.06.23-13.12.32:368][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto1
+[2024.06.23-13.12.32:369][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot_Auto118E984D84D1C2540DA3CA998C8DE10D5.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto1.uasset'
+[2024.06.23-13.12.32:371][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillSlot2] ([2] browsable assets)...
+[2024.06.23-13.12.32:374][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillSlot2.SkillSlot2]
+[2024.06.23-13.12.32:374][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot2]
+[2024.06.23-13.12.32:403][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot2_Auto1
+[2024.06.23-13.12.32:404][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot2_Auto176C18E154E9C0CEEA21141B66E702911.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot2_Auto1.uasset'
+[2024.06.23-13.12.32:406][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillSlot3] ([2] browsable assets)...
+[2024.06.23-13.12.32:409][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillSlot3.SkillSlot3]
+[2024.06.23-13.12.32:409][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot3]
+[2024.06.23-13.12.32:438][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot3_Auto1
+[2024.06.23-13.12.32:439][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot3_Auto1823968A34C3A52096751F492A7C7C2B5.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot3_Auto1.uasset'
+[2024.06.23-13.12.32:441][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI] ([2] browsable assets)...
+[2024.06.23-13.12.32:441][249]LogScript: Warning: Accessed None trying to read Class from property Skill
+	SkillMenuSlot_UI_C /Game/Dungeons.Dungeons:SkillMenuSlot_UI_C_0
+	Function /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI_C:ExecuteUbergraph_SkillMenuSlot_UI:0043
+[2024.06.23-13.12.32:441][249]LogScript: Warning: Accessed None reading structure Icon_22_B3CC43C74F6852B40793F1858C1DE0BA
+	SkillMenuSlot_UI_C /Game/Dungeons.Dungeons:SkillMenuSlot_UI_C_0
+	Function /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI_C:ExecuteUbergraph_SkillMenuSlot_UI:0058
+[2024.06.23-13.12.32:443][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI]
+[2024.06.23-13.12.32:443][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI]
+[2024.06.23-13.12.32:454][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI_Auto1
+[2024.06.23-13.12.32:455][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillMenuSlot_UI_Auto19761212A4839C92310D82FBAC26A96EC.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI_Auto1.uasset'
+[2024.06.23-13.12.32:457][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/UI/SkillMenu/DragUI] ([2] browsable assets)...
+[2024.06.23-13.12.32:457][249]LogScript: Warning: Accessed None trying to read Class from property Skill
+	DragUI_C /Game/Dungeons.Dungeons:DragUI_C_0
+	Function /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI_C:ExecuteUbergraph_DragUI:0043
+[2024.06.23-13.12.32:457][249]LogScript: Warning: Accessed None reading structure Icon_22_B3CC43C74F6852B40793F1858C1DE0BA
+	DragUI_C /Game/Dungeons.Dungeons:DragUI_C_0
+	Function /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI_C:ExecuteUbergraph_DragUI:0058
+[2024.06.23-13.12.32:459][249]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI]
+[2024.06.23-13.12.32:459][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillMenu/DragUI]
+[2024.06.23-13.12.32:465][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillMenu/DragUI_Auto1
+[2024.06.23-13.12.32:467][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/DragUI_Auto118172D6E4A9A62EDCD7B3286BF953EA6.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillMenu/DragUI_Auto1.uasset'
+[2024.06.23-13.12.32:469][249]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/SkillSystem/HealthPotion] ([2] browsable assets)...
+[2024.06.23-13.12.32:477][249]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkillSystem/HealthPotion.HealthPotion]
+[2024.06.23-13.12.32:477][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/HealthPotion]
+[2024.06.23-13.12.32:482][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/HealthPotion_Auto1
+[2024.06.23-13.12.32:482][249]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/HealthPotion_Auto1FA85461345F199202878E6BBF8FE8AD4.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/HealthPotion_Auto1.uasset'
+[2024.06.23-13.12.32:483][249]LogFileHelpers: Auto-saving content packages took 0.346
+[2024.06.23-13.13.30:422][141]BlueprintLog: New page: Compile HealthPotion
+[2024.06.23-13.13.30:452][141]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion_C' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.SKEL_EnergyPotion_C' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.EnergyPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.SKEL_EnergyPotion_C:ReceiveBeginPlay' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.SKEL_EnergyPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.SKEL_EnergyPotion_C:ReceiveTick' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:738][741]LogMetaData: Removing '/Game/ProceduralDungeon/EnergyPotion.SKEL_EnergyPotion_C:UserConstructionScript' ref from Metadata '/Game/SkillSystem/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.09:780][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.14.09:898][741]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1jailCorridor1
+[2024.06.23-13.14.09:899][741]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1jailCorridor12F2BB6FA4ED9C039A113F5A7A6AB5759.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1jailCorridor1.uasset'
+[2024.06.23-13.14.09:901][741]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/ProceduralDungeon/EnergyPotion does not exist, will not scan.
+[2024.06.23-13.14.09:907][741]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/EnergyPotion
+[2024.06.23-13.14.09:907][741]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/EnergyPotionEC80138B429C286887872D830BB2160C.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/EnergyPotion.uasset'
+[2024.06.23-13.14.09:919][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms
+[2024.06.23-13.14.10:049][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.23-13.14.10:064][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.23-13.14.10:079][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.06.23-13.14.10:096][741]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.23-13.14.10:096][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/Room1jailCorridor1.Room1jailCorridor1
+[2024.06.23-13.14.10:097][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/EnergyPotion.EnergyPotion
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.SKEL_HealthPotion_C:ReceiveBeginPlay' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.SKEL_HealthPotion_C' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.HealthPotion_C' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.SKEL_HealthPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.SKEL_HealthPotion_C:ReceiveTick' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.SKEL_HealthPotion_C:UserConstructionScript' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:804][933]LogMetaData: Removing '/Game/ProceduralDungeon/HealthPotion.HealthPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SkillSystem/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.12:824][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.14.12:932][933]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/HealthPotion
+[2024.06.23-13.14.12:932][933]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/HealthPotion5EDD624849D1A9AACC956193FB9F16CA.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/HealthPotion.uasset'
+[2024.06.23-13.14.12:944][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 260 ms)
+[2024.06.23-13.14.12:968][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.23-13.14.12:983][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.06.23-13.14.12:997][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.23-13.14.13:016][933]AssetCheck: New page: Asset Save: HealthPotion
+[2024.06.23-13.14.13:016][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/HealthPotion.HealthPotion
+[2024.06.23-13.14.27:686][952]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ProceduralDungeon/Room1experiment1.Room1experiment1
+[2024.06.23-13.14.27:686][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.14.27:686][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.14.29:193][ 45]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion_C' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.SKEL_EnergyPotion_C' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.SKEL_EnergyPotion_C:ReceiveBeginPlay' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.SKEL_EnergyPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.SKEL_EnergyPotion_C:ReceiveTick' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.SKEL_EnergyPotion_C:UserConstructionScript' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:207][519]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ProceduralDungeon/EnergyPotion.PackageMetaData'
+[2024.06.23-13.14.54:227][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.14.54:289][519]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1jailCorridor1
+[2024.06.23-13.14.54:290][519]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1jailCorridor16AD8101B4138232D04AFE9A4A3D68E8D.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1jailCorridor1.uasset'
+[2024.06.23-13.14.54:296][519]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Assets/EnergyPotion
+[2024.06.23-13.14.54:296][519]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/EnergyPotion9A4E2C5E4F6D6560BBEB54861378DC95.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Assets/EnergyPotion.uasset'
+[2024.06.23-13.14.54:307][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 340 ms)
+[2024.06.23-13.14.54:332][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.23-13.14.54:348][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.06.23-13.14.54:362][519]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.06.23-13.14.54:366][519]LogSlate: Warning: Menu could not be pushed.  A path to the parent widget(SAssetTileItem [SAssetView.cpp(3722)]) could not be found
+[2024.06.23-13.14.54:368][519]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.23-13.14.54:368][519]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/Room1jailCorridor1.Room1jailCorridor1
+[2024.06.23-13.14.54:368][519]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.HealthPotion_C' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.HealthPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.SKEL_HealthPotion_C' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.SKEL_HealthPotion_C:ReceiveBeginPlay' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.SKEL_HealthPotion_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.SKEL_HealthPotion_C:ReceiveTick' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:070][731]LogMetaData: Removing '/Game/ProceduralDungeon/Assets/HealthPotion.SKEL_HealthPotion_C:UserConstructionScript' ref from Metadata '/Game/ProceduralDungeon/HealthPotion.PackageMetaData'
+[2024.06.23-13.14.58:089][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.14.58:131][731]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Assets/HealthPotion
+[2024.06.23-13.14.58:131][731]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/HealthPotion3BB97DC64EC882D1B18ABC845DC05389.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Assets/HealthPotion.uasset'
+[2024.06.23-13.14.58:140][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 391 ms)
+[2024.06.23-13.14.58:163][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.06.23-13.14.58:178][731]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.06.23-13.14.58:191][731]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.06.23-13.14.58:210][731]AssetCheck: New page: Asset Save: HealthPotion
+[2024.06.23-13.14.58:210][731]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ProceduralDungeon/Assets/HealthPotion.HealthPotion
+[2024.06.23-13.15.04:100][ 67]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ProceduralDungeon/Room1experiment1.Room1experiment1'
+[2024.06.23-13.15.33:167][637]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ProceduralDungeon/Room1experiment1.Room1experiment1'
+[2024.06.23-13.15.33:740][670]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ProceduralDungeon/Room1experiment1.Room1experiment1'
+[2024.06.23-13.15.53:371][820]BlueprintLog: New page: Compile Room1experiment1
+[2024.06.23-13.15.53:579][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.06.23-13.15.55:953][959]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-13.15.55:961][959]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.06.23-13.15.55:975][959]LogPlayLevel: [PlayLevel] Compiling BP_ThirdPersonCharacter before play...
+[2024.06.23-13.15.56:030][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_29.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:041][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_413.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:087][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:097][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_415.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:122][959]LogPlayLevel: [PlayLevel] Compiling Room1jailCorridor1 before play...
+[2024.06.23-13.15.56:139][959]LogPlayLevel: [PlayLevel] Compiling HealthPotion before play...
+[2024.06.23-13.15.56:161][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:171][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_417.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:182][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:193][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.DESTROYED_HealthPotion_C_CHILDACTOR_419.DefaultSceneRoot) Trying to register component with IsValid() == false. Aborting.
+[2024.06.23-13.15.56:199][959]LogPlayLevel: [PlayLevel] Compiling ActionBar before play...
+[2024.06.23-13.15.56:245][959]LogPlayLevel: [PlayLevel] Compiling SkillSlot2 before play...
+[2024.06.23-13.15.56:299][959]LogPlayLevel: [PlayLevel] Compiling SkillSlot before play...
+[2024.06.23-13.15.56:352][959]LogPlayLevel: [PlayLevel] Compiling SkillSlot3 before play...
+[2024.06.23-13.15.56:400][959]LogPlayLevel: [PlayLevel] Compiling DragUI before play...
+[2024.06.23-13.15.56:407][959]LogPlayLevel: [PlayLevel] Compiling SkillMenuSlot_UI before play...
+[2024.06.23-13.15.56:444][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.23-13.15.56:446][959]LogPlayLevel: PlayLevel: Blueprint regeneration took 484 ms (9 blueprints)
+[2024.06.23-13.15.56:446][959]PIE: New page: PIE session: Dungeons (23 Jun 2024, 15:15:56)
+[2024.06.23-13.15.56:446][959]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.15.56:449][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002769s)
+[2024.06.23-13.15.56:449][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.002801s)
+[2024.06.23-13.15.56:463][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.23-13.15.56:464][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.15.56:464][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.15.56:465][959]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-13.15.56:465][959]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2024.06.23-13.15.56:465][959]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-13.15.56:465][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-13.15.56:465][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-13.15.56:466][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-13.15.56:466][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-13.15.56:466][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-13.15.56:467][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-13.15.56:494][959]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-13.15.56:494][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-13.15.56:494][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-13.15.56:494][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-13.15.56:495][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.06.23-13.15.56:495][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.06.23-13.15.56:496][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.06.23-13.15.56:496][959]LogInit: FAudioDevice initialized with ID 7.
+[2024.06.23-13.15.56:496][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.06.23-13.15.56:496][959]LogAudio: Display: Audio Device (ID: 7) registered with world 'Dungeons'.
+[2024.06.23-13.15.56:496][959]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.23-13.15.56:502][959]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-13.15.56:508][959]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-14.15.56
+[2024.06.23-13.15.56:510][959]LogWorld: Bringing up level for play took: 0.007384
+[2024.06.23-13.15.56:512][959]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.06.23-13.15.56:518][959]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-13.15.56:518][959]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-13.15.56:528][959]PIE: Server logged in
+[2024.06.23-13.15.56:529][959]PIE: Play in editor total start time 0.568 seconds.
+[2024.06.23-13.15.56:879][960]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'TargetParent_C_1', movement 'Walking'
+[2024.06.23-13.15.56:879][960]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.100000 > MaxSimulationTimeStep (0.050) for 'TargetParent_C_0', movement 'Walking'
+[2024.06.23-13.16.14:128][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.16.14:128][ 47]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-13.16.14:128][ 47]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.16.14:141][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.16.14:144][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-13.16.14:151][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.16.14:168][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-13.16.14:168][ 47]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.06.23-13.16.14:168][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.23-13.16.14:170][ 47]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.06.23-13.16.14:182][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.23-13.16.14:218][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.06.23-13.16.17:348][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.06.23-13.16.17:355][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.16.17:471][301]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.16.17:471][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.17:972][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.18:472][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.18:973][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.19:473][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.19:974][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.20:475][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.20:975][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.21:476][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.21:976][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.22:476][301]LogFileManager: Error: Error moving file 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment167CE37A543E94082D8367EB63F776B2C.tmp'.
+[2024.06.23-13.16.22:476][301]LogSavePackage: Warning: Failed to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to temp directory
+[2024.06.23-13.16.22:476][301]LogSavePackage: Error: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.16.30:428][301]LogSlate: Window 'Message' being destroyed
+[2024.06.23-13.16.30:435][301]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/ProceduralDungeon/Room1experiment1' (Room1experiment1.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2024.06.23-13.16.30:446][301]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.16.30:446][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.30:946][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.31:447][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.31:948][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.32:448][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.32:949][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.33:449][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.33:950][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.34:451][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.34:951][301]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.35:451][301]LogFileManager: Error: Error moving file 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1FD35E1BA45AF72AE011A70BF9E1E5633.tmp'.
+[2024.06.23-13.16.35:451][301]LogSavePackage: Warning: Failed to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to temp directory
+[2024.06.23-13.16.35:451][301]LogSavePackage: Error: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.16.37:387][301]LogSlate: Window 'Message' being destroyed
+[2024.06.23-13.16.37:391][301]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/ProceduralDungeon/Room1experiment1' (Room1experiment1.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2024.06.23-13.16.37:395][301]EditorErrors: New page: Save Output
+[2024.06.23-13.16.37:395][301]EditorErrors: Warning: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.16.37:395][301]EditorErrors: Warning: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.16.37:434][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 20.0 sec (total: 20.4 sec)
+[2024.06.23-13.16.41:605][523]BlueprintLog: New page: Compile Room1experiment1
+[2024.06.23-13.16.41:657][523]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.06.23-13.16.43:146][607]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.16.43:146][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.16.43:917][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.23-13.16.43:918][647]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.16.43:918][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.16.44:634][690]LogSlate: Window 'BP_ThirdPersonCharacter' being destroyed
+[2024.06.23-13.16.44:647][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.06.23-13.16.44:647][690]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.16.44:647][690]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.16.45:394][746]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.16.45:410][746]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.16.48:511][899]LogSlate: Window 'Save Level As' being destroyed
+[2024.06.23-13.16.50:389][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.06.23-13.16.50:405][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.16.50:512][ 51]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.16.50:512][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.51:013][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.51:514][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.52:014][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.52:515][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.53:015][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.53:516][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.54:017][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.54:517][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.55:018][ 51]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.16.55:518][ 51]LogFileManager: Error: Error moving file 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1BC52745B4F4F7EF40127EAAEE773DC06.tmp'.
+[2024.06.23-13.16.55:518][ 51]LogSavePackage: Warning: Failed to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to temp directory
+[2024.06.23-13.16.55:518][ 51]LogSavePackage: Error: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.04:093][ 51]LogSlate: Window 'Message' being destroyed
+[2024.06.23-13.17.04:098][ 51]Message dialog closed, result: Continue, title: Message, text: The asset '/Game/ProceduralDungeon/Room1experiment1' (Room1experiment1.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2024.06.23-13.17.04:140][ 51]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter
+[2024.06.23-13.17.04:141][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonCharacterA524648C4C2453EB3686F39AED341C96.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset'
+[2024.06.23-13.17.04:146][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/ActionBar" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset" SILENT=true
+[2024.06.23-13.17.04:176][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/ActionBar
+[2024.06.23-13.17.04:177][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBarDB3816EE415C9C093FA213A151825233.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/ActionBar.uasset'
+[2024.06.23-13.17.04:181][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset" SILENT=true
+[2024.06.23-13.17.04:210][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot
+[2024.06.23-13.17.04:211][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot1822658841964E3217DB32B078DB014A.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot.uasset'
+[2024.06.23-13.17.04:215][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot2" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot2.uasset" SILENT=true
+[2024.06.23-13.17.04:244][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot2
+[2024.06.23-13.17.04:245][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot2333B9ED042496CA5C6B96CA494D7B92A.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot2.uasset'
+[2024.06.23-13.17.04:249][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SkillSystem/UI/SkillSlot3" FILE="C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot3.uasset" SILENT=true
+[2024.06.23-13.17.04:279][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillSlot3
+[2024.06.23-13.17.04:279][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot30EC49EF847DA8EB0B3232A9465DBF7C9.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillSlot3.uasset'
+[2024.06.23-13.17.04:281][ 51]LogScript: Warning: Accessed None trying to read Class from property Skill
+	SkillMenuSlot_UI_C /Game/Dungeons.Dungeons:SkillMenuSlot_UI_C_1
+	Function /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI_C:ExecuteUbergraph_SkillMenuSlot_UI:0043
+[2024.06.23-13.17.04:281][ 51]LogScript: Warning: Accessed None reading structure Icon_22_B3CC43C74F6852B40793F1858C1DE0BA
+	SkillMenuSlot_UI_C /Game/Dungeons.Dungeons:SkillMenuSlot_UI_C_1
+	Function /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI_C:ExecuteUbergraph_SkillMenuSlot_UI:0058
+[2024.06.23-13.17.04:296][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI
+[2024.06.23-13.17.04:297][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillMenuSlot_UIC9852D164225BD69441DBFBE7A2015F7.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.uasset'
+[2024.06.23-13.17.04:300][ 51]LogScript: Warning: Accessed None trying to read Class from property Skill
+	DragUI_C /Game/Dungeons.Dungeons:DragUI_C_1
+	Function /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI_C:ExecuteUbergraph_DragUI:0043
+[2024.06.23-13.17.04:300][ 51]LogScript: Warning: Accessed None reading structure Icon_22_B3CC43C74F6852B40793F1858C1DE0BA
+	DragUI_C /Game/Dungeons.Dungeons:DragUI_C_1
+	Function /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI_C:ExecuteUbergraph_DragUI:0058
+[2024.06.23-13.17.04:309][ 51]LogSavePackage: Moving output files for package: /Game/SkillSystem/UI/SkillMenu/DragUI
+[2024.06.23-13.17.04:309][ 51]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/DragUI822E03B64672847544AA03A58E465DD3.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/SkillSystem/UI/SkillMenu/DragUI.uasset'
+[2024.06.23-13.17.04:314][ 51]EditorErrors: New page: Save Output
+[2024.06.23-13.17.04:315][ 51]EditorErrors: Warning: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.08:877][ 51]LogSlate: Window 'Packages Failed To Save' being destroyed
+[2024.06.23-13.17.08:882][ 51]Message dialog closed, result: Ok, title: Packages Failed To Save, text: The following assets failed to save correctly:
+/Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.17.08:882][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 18.4 sec (total: 38.9 sec)
+[2024.06.23-13.17.08:888][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.23-13.17.08:888][ 51]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.23-13.17.08:888][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar
+[2024.06.23-13.17.08:889][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot.SkillSlot
+[2024.06.23-13.17.08:889][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot2.SkillSlot2
+[2024.06.23-13.17.08:890][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillSlot3.SkillSlot3
+[2024.06.23-13.17.08:890][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI.SkillMenuSlot_UI
+[2024.06.23-13.17.08:890][ 51]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/SkillSystem/UI/SkillMenu/DragUI.DragUI
+[2024.06.23-13.17.11:796][284]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.17.11:812][284]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.17.15:105][568]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ProceduralDungeon/Room1experiment1.Room1experiment1
+[2024.06.23-13.17.15:106][568]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-13.17.15:106][568]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-13.17.16:498][652]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.23-13.17.24:797][148]LogSlate: Window 'Room1experiment1' being destroyed
+[2024.06.23-13.17.24:803][148]LogSlate: Window 'Room1experiment1' being destroyed
+[2024.06.23-13.17.24:809][148]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.24:809][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.17.27:779][401]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.06.23-13.17.27:785][401]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.23-13.17.27:835][401]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.17.27:836][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.28:336][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.28:837][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.29:337][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.29:837][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.30:338][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.30:838][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.31:338][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.31:839][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.32:340][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.32:840][401]LogFileManager: Error: Error moving file 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B9A145B94FA4E14A55ABB3B5A01409F5.tmp'.
+[2024.06.23-13.17.32:840][401]LogSavePackage: Warning: Failed to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to temp directory
+[2024.06.23-13.17.32:840][401]LogSavePackage: Error: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.36:556][401]LogSlate: Window 'Message' being destroyed
+[2024.06.23-13.17.36:561][401]Message dialog closed, result: Retry, title: Message, text: The asset '/Game/ProceduralDungeon/Room1experiment1' (Room1experiment1.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2024.06.23-13.17.36:572][401]LogSavePackage: Moving output files for package: /Game/ProceduralDungeon/Room1experiment1
+[2024.06.23-13.17.36:573][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.37:073][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.37:574][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.38:074][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.38:574][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.39:074][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.39:575][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.40:075][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.40:576][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.41:076][401]LogFileManager: Warning: MoveFile was unable to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp' (Error Code 32), retrying in .5s...
+[2024.06.23-13.17.41:576][401]LogFileManager: Error: Error moving file 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Room1experiment1B787D0E0450641A7B2595A9312528CF0.tmp'.
+[2024.06.23-13.17.41:576][401]LogSavePackage: Warning: Failed to move 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset' to temp directory
+[2024.06.23-13.17.41:576][401]LogSavePackage: Error: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.43:397][401]LogSlate: Window 'Message' being destroyed
+[2024.06.23-13.17.43:403][401]Message dialog closed, result: Cancel, title: Message, text: The asset '/Game/ProceduralDungeon/Room1experiment1' (Room1experiment1.uasset) failed to save.
+
+Cancel: Stop saving all assets and return to the editor.
+Retry: Attempt to save the asset again.
+Continue: Skip saving this asset only.
+[2024.06.23-13.17.43:408][401]EditorErrors: New page: Save Output
+[2024.06.23-13.17.43:408][401]EditorErrors: Warning: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.43:408][401]EditorErrors: Warning: Error saving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Content/ProceduralDungeon/Room1experiment1.uasset'
+[2024.06.23-13.17.43:431][401]LogFileHelpers: InternalPromptForCheckoutAndSave took 15.6 sec (total: 54.5 sec)
+[2024.06.23-13.17.45:647][571]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.17.45:665][571]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-13.17.46:581][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.06.23-13.17.49:000][657]LogSlate: Window 'Save Content' being destroyed
+[2024.06.23-13.17.49:005][657]LogStall: Shutdown...
+[2024.06.23-13.17.49:011][657]LogStall: Shutdown complete.
+[2024.06.23-13.17.49:074][657]LogSlate: Window 'ProjectSkill - Unreal Editor' being destroyed
+[2024.06.23-13.17.49:170][658]Cmd: QUIT_EDITOR
+[2024.06.23-13.17.49:171][658]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.06.23-13.17.49:174][658]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.06.23-13.17.49:174][658]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.06.23-13.17.49:174][658]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.06.23-13.17.49:174][658]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.49:174][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-13.17.49:181][658]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.06.23-13.17.50:211][658]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.06.23-13.17.50:211][658]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.06.23-13.17.50:211][658]LogAudio: Display: Audio Device unregistered from world 'Dungeons'.
+[2024.06.23-13.17.50:211][658]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.06.23-13.17.50:211][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.23-13.17.50:213][658]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.23-13.17.50:217][658]LogAudio: Display: Audio Device Manager Shutdown
+[2024.06.23-13.17.50:221][658]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.23-13.17.50:221][658]LogExit: Preparing to exit.
+[2024.06.23-13.17.50:240][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:247][658]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.23-13.17.50:741][658]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:744][658]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:746][658]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:749][658]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:751][658]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:753][658]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:755][658]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:757][658]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:759][658]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:761][658]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:764][658]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:766][658]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:768][658]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:770][658]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:772][658]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:774][658]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-13.17.50:933][658]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.06.23-13.17.50:968][658]LogExit: Editor shut down
+[2024.06.23-13.17.50:970][658]LogExit: Transaction tracking system shut down
+[2024.06.23-13.17.51:131][658]LogExit: Object subsystem successfully closed.
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: ================================================
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: Total job queries 39, among them cache hits 7 (17.95%)
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: Tracking 32 distinct input hashes that result in 22 distinct outputs (68.75%)
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: RAM used: 686.04 KiB of 3.20 GiB budget. Usage: 0.02%
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.06.23-13.17.51:136][658]LogShaderCompilers: Display: ================================================
+[2024.06.23-13.17.51:144][658]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.06.23-13.17.51:155][658]LogVirtualization: UE::Virtualization was shutdown
+[2024.06.23-13.17.51:167][658]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1052)
+[2024.06.23-13.17.51:167][658]LogModuleManager: Shutting down and abandoning module Voice (1050)
+[2024.06.23-13.17.51:167][658]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1048)
+[2024.06.23-13.17.51:167][658]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1046)
+[2024.06.23-13.17.51:167][658]LogModuleManager: Shutting down and abandoning module AddContentDialog (1044)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1043)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module SceneOutliner (1040)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module StatusBar (1038)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1036)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1034)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module SmartSnapping (1026)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1024)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WaveTableEditor (1022)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module RigVMEditor (1020)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (1018)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module GooglePADEditor (1016)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (1014)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (1012)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1010)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1008)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1006)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1004)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module WebMMedia (1002)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1000)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module SequenceRecorder (999)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (996)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (994)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (992)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (990)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (988)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (986)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (984)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (982)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module ControlRigEditor (980)
+[2024.06.23-13.17.51:176][658]LogModuleManager: Shutting down and abandoning module IKRigEditor (978)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module TextureAlignMode (976)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module BspMode (974)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module GeometryMode (972)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (970)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (968)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (966)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (964)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module PlanarCut (962)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module FractureEngine (960)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module CharacterAI (958)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2024.06.23-13.17.51:177][658]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2024.06.23-13.17.51:954][658]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2024.06.23-13.17.51:954][658]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2024.06.23-13.17.51:954][658]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2024.06.23-13.17.51:954][658]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2024.06.23-13.17.51:954][658]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2024.06.23-13.17.51:955][658]MemoryProfiler: Shutdown
+[2024.06.23-13.17.51:955][658]NetworkingProfiler: Shutdown
+[2024.06.23-13.17.51:955][658]LoadingProfiler: Shutdown
+[2024.06.23-13.17.51:955][658]TimingProfiler: Shutdown
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module Layers (842)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (840)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module DetailCustomizations (838)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module PackagesDialog (836)
+[2024.06.23-13.17.51:955][658]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (834)
+[2024.06.23-13.17.51:956][658]LogModuleManager: Shutting down and abandoning module Persona (832)
+[2024.06.23-13.17.51:956][658]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (831)
+[2024.06.23-13.17.51:956][658]LogModuleManager: Shutting down and abandoning module Kismet (828)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module KismetWidgets (827)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module GraphEditor (824)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module StructViewer (822)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module ClassViewer (820)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (818)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (816)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module SourceControlWindows (814)
+[2024.06.23-13.17.51:972][658]LogModuleManager: Shutting down and abandoning module OutputLog (812)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module Documentation (810)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (808)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (806)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module MovieScene (804)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (802)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (800)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (798)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AudioMixer (797)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AudioMixerCore (796)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module LauncherPlatform (792)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AnalyticsET (790)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module PortalServices (788)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module PortalRpc (786)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module MessagingRpc (784)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AIModule (782)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module GameplayDebugger (781)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module AITestSuite (779)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module NavigationSystem (777)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (774)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (772)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module TypedElementFramework (770)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (768)
+[2024.06.23-13.17.51:973][658]LogModuleManager: Shutting down and abandoning module ProfilerService (766)
+[2024.06.23-13.17.52:070][658]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (764)
+[2024.06.23-13.17.52:070][658]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (762)
+[2024.06.23-13.17.52:070][658]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (760)
+[2024.06.23-13.17.52:070][658]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (758)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (756)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module TakesCore (754)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module MegascansPlugin (752)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module Bridge (750)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (748)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (746)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module LightMixer (744)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (742)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (740)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module CollectionManager (739)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (736)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (734)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (732)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (730)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module Paper2DEditor (728)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module SynthesisEditor (726)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ResonanceAudio (724)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (722)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (720)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (718)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ModelingOperators (716)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (714)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ModelingComponents (712)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GeometryFramework (711)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (708)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module MeshModelingTools (706)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (704)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module InputDebugging (702)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GooglePAD (700)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module DynamicMesh (698)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (696)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (694)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (692)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (690)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module AudioCapture (688)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (687)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module AssetTags (684)
+[2024.06.23-13.17.52:071][658]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (682)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (680)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AppleImageUtils (678)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (676)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (674)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AndroidPermission (672)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AlembicImporter (670)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AlembicLibrary (669)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module GeometryCache (668)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (667)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module TakeSequencer (662)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module TakeMovieScene (660)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (658)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module MediaPlate (656)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module MediaCompositing (654)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ImgMedia (652)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (650)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (648)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (646)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (644)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module UObjectPlugin (642)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module PluginUtils (640)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (638)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module DumpGPUServices (636)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module GitSourceControl (634)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ControlRigSpline (632)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (630)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (628)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (626)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (624)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (622)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (620)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (618)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeTests (616)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (612)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (610)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeEditor (608)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (606)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (604)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (602)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeExport (600)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module InterchangeMessages (598)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module GLTFCore (596)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (594)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (592)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module UVEditorTools (590)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module UVEditor (588)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module PluginBrowser (586)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (584)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (582)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (580)
+[2024.06.23-13.17.52:072][658]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (578)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (576)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module EditorDebugTools (574)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module ChangelistReview (572)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (570)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module CryptoKeys (568)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (566)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (564)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module CurveEditorTools (562)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module VariantManager (560)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (559)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (556)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (554)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module SequencerScripting (552)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module TemplateSequence (550)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (548)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (546)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (544)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (542)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (540)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (538)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (536)
+[2024.06.23-13.17.52:073][658]LogOpenImageDenoise: OIDN shutting down
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module MeshLODToolset (534)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (532)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (530)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (528)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (526)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (524)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (522)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module LocalizableMessage (520)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (518)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (516)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (515)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (513)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (510)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (508)
+[2024.06.23-13.17.52:073][658]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (506)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (504)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module DataflowNodes (502)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (500)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module DataflowEditor (498)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module FractureEditor (496)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (494)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (492)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module AutomationUtils (490)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module ChaosNiagara (488)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (486)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (484)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module BackChannel (482)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (480)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module TraceUtilities (478)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (476)
+[2024.06.23-13.17.52:088][658]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (474)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module InputEditor (472)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (470)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module Niagara (468)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module NiagaraEditor (467)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module NiagaraCore (464)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module GameplayCameras (462)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module Paper2D (460)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module Synthesis (458)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module SoundFields (456)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module SignificanceManager (454)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (452)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module RigVM (450)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (448)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (446)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (444)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundEditor (442)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AudioWidgets (441)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (440)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (436)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundEngine (434)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module WaveTable (433)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (431)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (428)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (426)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (424)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (422)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (420)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (418)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (416)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (415)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (412)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module SignalProcessing (411)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module CableComponent (408)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (406)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (404)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (402)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AnimationData (400)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module AnimationSharing (398)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (396)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module ControlRig (394)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module Constraints (393)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (390)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module IKRig (388)
+[2024.06.23-13.17.52:089][658]LogModuleManager: Shutting down and abandoning module UdpMessaging (386)
+[2024.06.23-13.17.52:190][658]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (384)
+[2024.06.23-13.17.52:190][658]LogModuleManager: Shutting down and abandoning module TcpMessaging (382)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module InterchangePipelines (380)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module InterchangeImport (378)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (376)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module InterchangeNodes (374)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (372)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module FacialAnimation (370)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (368)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module DataValidation (366)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (364)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module ContentBrowser (363)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module ToolMenus (362)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module ContentBrowserData (360)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module TreeMap (357)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module ActorSequence (354)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module StructUtils (352)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (350)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module PBIK (348)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module FullBodyIK (346)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (344)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module TakeRecorder (343)
+[2024.06.23-13.17.52:290][658]LogModuleManager: Shutting down and abandoning module LevelEditor (341)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (340)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (338)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module MainFrame (336)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module HotReload (335)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module ChaosCaching (330)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module LevelSequence (329)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2024.06.23-13.17.52:294][658]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2024.06.23-13.17.52:296][658]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.06.23-13.17.52:297][658]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.06.23-13.17.52:297][658]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.06.23-13.17.52:298][658]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2024.06.23-13.17.52:298][658]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2024.06.23-13.17.52:299][658]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module Core (244)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2024.06.23-13.17.52:305][658]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2024.06.23-13.17.52:316][658]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2024.06.23-13.17.52:316][658]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2024.06.23-13.17.52:316][658]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2024.06.23-13.17.52:316][658]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (122)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module NiagaraShader (120)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (118)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (116)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module ChunkDownloader (114)
+[2024.06.23-13.17.52:320][658]LogModuleManager: Shutting down and abandoning module WmfMedia (112)
+[2024.06.23-13.17.52:323][658]LogModuleManager: Shutting down and abandoning module Media (111)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (108)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module PixWinPlugin (106)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (104)
+[2024.06.23-13.17.52:325][658]RenderDocPlugin: plugin has been unloaded.
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module ACLPlugin (102)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module AISupportModule (100)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (98)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (96)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (94)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (92)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (90)
+[2024.06.23-13.17.52:325][658]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2024.06.23-13.17.52:327][658]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2024.06.23-13.17.52:327][658]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2024.06.23-13.17.52:356][658]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2024.06.23-13.17.52:356][658]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.06.23-13.17.52:356][658]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1626FD16-4C21-FA6E-DC98-8FB92DFED866%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=9fc858d442ae30d35d6e9bb1fba9611e%7C07c0615afaf84a85baef4c2df2ef561a%7C9f16ec88-38ba-4bc0-8ef9-297dfc16df1c&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.06.23-13.17.52:391][658]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2024.06.23-13.17.52:392][658]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2024.06.23-13.17.52:392][658]LogModuleManager: Shutting down and abandoning module VariantManagerContent (72)
+[2024.06.23-13.17.52:392][658]LogModuleManager: Shutting down and abandoning module GLTFExporter (70)
+[2024.06.23-13.17.52:392][658]LogModuleManager: Shutting down and abandoning module DatasmithContent (68)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (62)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (60)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.06.23-13.17.52:393][658]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.06.23-13.17.52:394][658]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.06.23-13.17.52:396][658]LogPakFile: Destroying PakPlatformFile
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.06.23-13.17.52:396][658]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.06.23-13.17.52:753][658]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.06.23-13.17.52:809][658]LogExit: Exiting.
+[2024.06.23-13.17.52:873][658]Log file closed, 06/23/24 14:17:52
