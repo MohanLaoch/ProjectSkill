@@ -4191,3 +4191,614 @@ Converted Global Transform (11.880157,2.704649,-3.781707|-67.015675,-81.295716,8
 [2024.06.23-14.59.29:803][466]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animations/AI/Enemy_AnimBP.Enemy_AnimBP
 [2024.06.23-14.59.29:803][466]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Animations/Paired_CounterPunch_PalmStrike_Att.Paired_CounterPunch_PalmStrike_Att
 [2024.06.23-14.59.29:803][466]LogContentValidation: Display: Validating /Script/Engine.AnimMontage /Game/Animations/PunchMontage.PunchMontage
+[2024.06.23-15.00.18:791][725]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.00.18:798][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.00.18:798][725]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:00:18)
+[2024.06.23-15.00.18:798][725]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.00.18:814][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015477s)
+[2024.06.23-15.00.18:814][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.015512s)
+[2024.06.23-15.00.18:829][725]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.06.23-15.00.18:831][725]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.00.18:831][725]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.00.18:831][725]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.00.18:832][725]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2024.06.23-15.00.18:832][725]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.00.18:832][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.00.18:832][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.00.18:832][725]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.00.18:832][725]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.00.18:832][725]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.00.18:834][725]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.00.18:858][725]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.00.18:858][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.00.18:858][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.00.18:858][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.00.18:858][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.06.23-15.00.18:858][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.06.23-15.00.18:860][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.06.23-15.00.18:860][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.06.23-15.00.18:860][725]LogInit: FAudioDevice initialized with ID 32.
+[2024.06.23-15.00.18:860][725]LogAudio: Display: Audio Device (ID: 32) registered with world 'Dungeons'.
+[2024.06.23-15.00.18:860][725]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.06.23-15.00.18:863][725]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.00.18:872][725]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.00.18
+[2024.06.23-15.00.18:873][725]LogWorld: Bringing up level for play took: 0.009530
+[2024.06.23-15.00.18:878][725]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2024.06.23-15.00.18:884][725]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.00.18:884][725]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.00.18:895][725]PIE: Server logged in
+[2024.06.23-15.00.18:896][725]PIE: Play in editor total start time 0.098 seconds.
+[2024.06.23-15.00.43:371][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.00.43:371][852]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.00.43:371][852]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.00.43:384][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.00.43:388][852]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.00.43:395][852]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.00.43:412][852]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-15.00.43:413][852]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.06.23-15.00.43:413][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.06.23-15.00.43:415][852]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.06.23-15.00.43:419][852]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.00.43:433][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.06.23-15.00.43:517][853]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2024.06.23-15.01.04:240][230]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.01.04:338][230]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.06.23-15.01.06:936][352]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.01.06:937][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.01.07:012][352]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.01.07:012][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.01.07:017][352]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.01.07:017][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.01.09:742][547]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.01.09:749][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.01.09:749][547]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:01:09)
+[2024.06.23-15.01.09:779][547]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.01.09:795][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015814s)
+[2024.06.23-15.01.09:795][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.015856s)
+[2024.06.23-15.01.09:814][547]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.06.23-15.01.09:825][547]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.01.09:825][547]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.01.09:825][547]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.01.09:826][547]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2024.06.23-15.01.09:826][547]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.01.09:826][547]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.01.09:826][547]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.01.09:826][547]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.01.09:826][547]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.01.09:826][547]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.01.09:828][547]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.01.09:852][547]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.01.09:852][547]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.01.09:852][547]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.01.09:852][547]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.01.09:853][547]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.06.23-15.01.09:853][547]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.06.23-15.01.09:854][547]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.06.23-15.01.09:854][547]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.06.23-15.01.09:854][547]LogInit: FAudioDevice initialized with ID 33.
+[2024.06.23-15.01.09:854][547]LogAudio: Display: Audio Device (ID: 33) registered with world 'Dungeons'.
+[2024.06.23-15.01.09:854][547]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.06.23-15.01.09:857][547]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.01.09:867][547]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.01.09
+[2024.06.23-15.01.09:867][547]LogWorld: Bringing up level for play took: 0.009980
+[2024.06.23-15.01.09:873][547]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2024.06.23-15.01.09:878][547]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.01.09:878][547]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.01.09:891][547]PIE: Server logged in
+[2024.06.23-15.01.09:892][547]PIE: Play in editor total start time 0.143 seconds.
+[2024.06.23-15.01.25:517][922]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.01.25:517][922]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.01.25:517][922]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.01.31:625][410]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-15.01.31:625][410]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-15.01.43:147][614]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.01.43:147][614]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.06.23-15.02.03:058][850]LogScript: Warning: Script Msg: AoE_Fear_C_0 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.02.03:058][850]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_0
+[2024.06.23-15.02.06:732][267]LogScript: Warning: Script Msg: Buff_CurseArmour_C_0 TickBuff SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.02.06:732][267]LogScript: Warning: Script Msg called by: Buff_CurseArmour_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Buff_CurseArmour_C_0
+[2024.06.23-15.02.27:577][201]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	Projectile_CurseBlast_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Projectile_CurseBlast_C_6
+	Function /Game/SkillSystem/Skill_Projectile.Skill_Projectile_C:ExecuteUbergraph_Skill_Projectile:008B
+[2024.06.23-15.02.27:577][201]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Node:  Set HomingTargetComponent Graph:  EventGraph Function:  Execute Ubergraph Skill Projectile Blueprint:  Skill_Projectile
+[2024.06.23-15.02.28:084][246]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	Projectile_CurseBlast_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Projectile_CurseBlast_C_6
+	Function /Game/SkillSystem/Skill_Projectile.Skill_Projectile_C:ExecuteUbergraph_Skill_Projectile:008B
+[2024.06.23-15.02.28:084][246]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Node:  Set HomingTargetComponent Graph:  EventGraph Function:  Execute Ubergraph Skill Projectile Blueprint:  Skill_Projectile
+[2024.06.23-15.02.31:845][582]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	Projectile_CurseBlast_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Projectile_CurseBlast_C_7
+	Function /Game/SkillSystem/Skill_Projectile.Skill_Projectile_C:ExecuteUbergraph_Skill_Projectile:008B
+[2024.06.23-15.02.31:845][582]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Node:  Set HomingTargetComponent Graph:  EventGraph Function:  Execute Ubergraph Skill Projectile Blueprint:  Skill_Projectile
+[2024.06.23-15.02.32:344][627]LogScript: Warning: Accessed None trying to read property CurrentTarget
+	Projectile_CurseBlast_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Projectile_CurseBlast_C_7
+	Function /Game/SkillSystem/Skill_Projectile.Skill_Projectile_C:ExecuteUbergraph_Skill_Projectile:008B
+[2024.06.23-15.02.32:345][627]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CurrentTarget". Node:  Set HomingTargetComponent Graph:  EventGraph Function:  Execute Ubergraph Skill Projectile Blueprint:  Skill_Projectile
+[2024.06.23-15.02.35:651][939]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-15.02.35:651][939]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-15.02.38:369][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.02.38:369][178]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.02.38:370][178]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.02.38:383][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.02.38:386][178]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.02.38:393][178]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.02.38:408][178]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-15.02.38:410][178]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.06.23-15.02.38:410][178]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.06.23-15.02.38:412][178]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.06.23-15.02.38:415][178]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.02.38:429][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.06.23-15.02.38:584][179]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2024.06.23-15.02.42:131][439]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-15.02.42:147][439]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-15.03.00:109][407]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.03.00:194][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.06.23-15.03.02:110][531]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.03.02:118][531]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.03.02:118][531]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:03:02)
+[2024.06.23-15.03.02:138][531]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.03.02:156][531]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017694s)
+[2024.06.23-15.03.02:156][531]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.017736s)
+[2024.06.23-15.03.02:174][531]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.06.23-15.03.02:180][531]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.03.02:180][531]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.03.02:181][531]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.03.02:181][531]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2024.06.23-15.03.02:181][531]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.03.02:181][531]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.03.02:181][531]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.03.02:182][531]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.03.02:182][531]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.03.02:182][531]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.03.02:184][531]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.03.02:208][531]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.03.02:208][531]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.03.02:209][531]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.03.02:209][531]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.03.02:209][531]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.06.23-15.03.02:209][531]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.06.23-15.03.02:211][531]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.06.23-15.03.02:211][531]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.06.23-15.03.02:211][531]LogInit: FAudioDevice initialized with ID 34.
+[2024.06.23-15.03.02:211][531]LogAudio: Display: Audio Device (ID: 34) registered with world 'Dungeons'.
+[2024.06.23-15.03.02:211][531]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.06.23-15.03.02:214][531]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.03.02:223][531]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.03.02
+[2024.06.23-15.03.02:224][531]LogWorld: Bringing up level for play took: 0.009702
+[2024.06.23-15.03.02:229][531]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2024.06.23-15.03.02:235][531]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.03.02:235][531]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.03.02:246][531]PIE: Server logged in
+[2024.06.23-15.03.02:247][531]PIE: Play in editor total start time 0.129 seconds.
+[2024.06.23-15.03.20:724][365]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.03.20:724][365]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.03.20:724][365]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.04.10:078][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.04.10:078][277]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.04.10:078][277]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.04.10:091][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.04.10:094][277]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.04.10:101][277]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.04.10:117][277]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-15.04.10:118][277]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.06.23-15.04.10:118][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.06.23-15.04.10:120][277]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.06.23-15.04.10:123][277]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.04.10:136][277]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.23-15.04.10:215][278]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2024.06.23-15.04.13:085][552]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.04.13:092][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.04.13:092][552]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:04:13)
+[2024.06.23-15.04.13:092][552]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.04.13:108][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015916s)
+[2024.06.23-15.04.13:108][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.015953s)
+[2024.06.23-15.04.13:123][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.06.23-15.04.13:127][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.04.13:127][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.04.13:128][552]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.04.13:128][552]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2024.06.23-15.04.13:128][552]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.04.13:128][552]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.04.13:128][552]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.04.13:129][552]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.04.13:129][552]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.04.13:129][552]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.04.13:131][552]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.04.13:155][552]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.04.13:155][552]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.04.13:155][552]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.04.13:155][552]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.04.13:156][552]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.06.23-15.04.13:156][552]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.06.23-15.04.13:157][552]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.06.23-15.04.13:157][552]LogInit: FAudioDevice initialized with ID 35.
+[2024.06.23-15.04.13:157][552]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.06.23-15.04.13:157][552]LogAudio: Display: Audio Device (ID: 35) registered with world 'Dungeons'.
+[2024.06.23-15.04.13:157][552]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.06.23-15.04.13:161][552]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.04.13:170][552]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.04.13
+[2024.06.23-15.04.13:171][552]LogWorld: Bringing up level for play took: 0.009670
+[2024.06.23-15.04.13:176][552]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2024.06.23-15.04.13:182][552]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.04.13:182][552]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.04.13:192][552]PIE: Server logged in
+[2024.06.23-15.04.13:193][552]PIE: Play in editor total start time 0.101 seconds.
+[2024.06.23-15.04.47:839][433]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.04.47:840][433]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.04.47:840][433]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.04.52:619][897]LogScript: Warning: Script Msg: Buff_CurseArmour_C_0 TickBuff SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.04.52:619][897]LogScript: Warning: Script Msg called by: Buff_CurseArmour_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Buff_CurseArmour_C_0
+[2024.06.23-15.05.11:288][700]LogScript: Warning: Script Msg: Buff_CurseArmour_C_1 TickBuff SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.05.11:288][700]LogScript: Warning: Script Msg called by: Buff_CurseArmour_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.Buff_CurseArmour_C_1
+[2024.06.23-15.06.04:600][ 58]LogScript: Warning: Script Msg: AoE_Fear_C_0 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.06.04:600][ 58]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_0
+[2024.06.23-15.06.33:769][ 13]LogScript: Warning: Script Msg: AoE_Fear_C_1 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.06.33:769][ 13]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_1
+[2024.06.23-15.09.07:924][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.09.07:924][269]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.09.07:925][269]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.09.07:938][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.09.07:941][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.09.07:948][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.09.07:965][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.09.07:965][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.06.23-15.09.07:965][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.06.23-15.09.07:967][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.06.23-15.09.07:983][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.06.23-15.09.08:068][270]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2024.06.23-15.09.12:724][679]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/SkillSystem/UI/ActionBar.ActionBar
+[2024.06.23-15.09.12:724][679]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.09.12:724][679]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.09.12:734][679]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.09.12:734][679]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.09.15:977][912]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.09.15:977][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.09.15:986][912]LogWorld: UWorld::CleanupWorld for World_89, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.09.15:986][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.09.20:795][266]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.09.21:513][308]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter
+[2024.06.23-15.09.21:513][308]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.09.21:513][308]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.09.38:903][360]BlueprintLog: New page: Compile BP_ThirdPersonCharacter
+[2024.06.23-15.09.38:983][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.06.23-15.10.39:333][ 56]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.10.39:420][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.06.23-15.10.47:021][532]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.06.23-15.11.00:721][554]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/Skill.Skill
+[2024.06.23-15.11.00:721][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.11.00:721][554]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.11.24:071][862]LogWorld: UWorld::CleanupWorld for World_93, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.11.24:071][862]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.12.02:227][340]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SkillSystem/AOE/AoE_Fear.AoE_Fear
+[2024.06.23-15.12.02:228][340]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.12.02:228][340]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.13.23:986][321]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.13.24:097][321]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.23-15.14.12:629][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.06.23-15.14.12:635][489]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Dungeons' took 0.025
+[2024.06.23-15.14.12:636][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/TargetParent] ([2] browsable assets)...
+[2024.06.23-15.14.12:704][489]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SkillSystem/TargetParent.TargetParent]
+[2024.06.23-15.14.12:704][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/TargetParent]
+[2024.06.23-15.14.12:724][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/TargetParent_Auto6
+[2024.06.23-15.14.12:724][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/TargetParent_Auto60BEFEAF64D713D57DD685395A5BAE50B.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/TargetParent_Auto6.uasset'
+[2024.06.23-15.14.12:725][489]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter] ([2] browsable assets)...
+[2024.06.23-15.14.12:725][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.14.12:749][489]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C]
+[2024.06.23-15.14.12:755][489]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter]
+[2024.06.23-15.14.12:755][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter]
+[2024.06.23-15.14.12:786][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6
+[2024.06.23-15.14.12:787][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/BP_ThirdPersonCharacter_Auto6DA462E8D4D97E4D58D04418C2AF8E8E8.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonCharacter_Auto6.uasset'
+[2024.06.23-15.14.12:788][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/ActionBar] ([2] browsable assets)...
+[2024.06.23-15.14.12:789][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/ActionBar]
+[2024.06.23-15.14.12:819][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/ActionBar_Auto6
+[2024.06.23-15.14.12:820][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/ActionBar_Auto61D426A05420A32D1F99799A1213FD8D7.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/ActionBar_Auto6.uasset'
+[2024.06.23-15.14.12:822][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillSlot] ([2] browsable assets)...
+[2024.06.23-15.14.12:822][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot]
+[2024.06.23-15.14.12:850][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto6
+[2024.06.23-15.14.12:852][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot_Auto61B904FA3446250CB35F34FA4F929DED7.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot_Auto6.uasset'
+[2024.06.23-15.14.12:853][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillSlot2] ([2] browsable assets)...
+[2024.06.23-15.14.12:853][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot2]
+[2024.06.23-15.14.12:881][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot2_Auto6
+[2024.06.23-15.14.12:883][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot2_Auto6432165534564DB4C3B9233867A2E2453.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot2_Auto6.uasset'
+[2024.06.23-15.14.12:884][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillSlot3] ([2] browsable assets)...
+[2024.06.23-15.14.12:884][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillSlot3]
+[2024.06.23-15.14.12:912][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillSlot3_Auto6
+[2024.06.23-15.14.12:913][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillSlot3_Auto66508F85741B2FE40DED36995FDF7A107.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillSlot3_Auto6.uasset'
+[2024.06.23-15.14.12:914][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI] ([2] browsable assets)...
+[2024.06.23-15.14.12:914][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI]
+[2024.06.23-15.14.12:924][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI_Auto6
+[2024.06.23-15.14.12:925][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/SkillMenuSlot_UI_Auto6198F3A0948488DEB71EAB3A00ACF6563.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillMenu/SkillMenuSlot_UI_Auto6.uasset'
+[2024.06.23-15.14.12:927][489]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SkillSystem/UI/SkillMenu/DragUI] ([2] browsable assets)...
+[2024.06.23-15.14.12:927][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/SkillSystem/UI/SkillMenu/DragUI]
+[2024.06.23-15.14.12:933][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/SkillSystem/UI/SkillMenu/DragUI_Auto6
+[2024.06.23-15.14.12:934][489]LogSavePackage: Moving 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/DragUI_Auto69B9F39FE4BD4A19F3B1BBF86C0936EC4.tmp' to 'C:/Users/jamoh/OneDrive/Documents/Unreal Projects/ProjectSkill/ProjectSkill/Saved/Autosaves/Game/SkillSystem/UI/SkillMenu/DragUI_Auto6.uasset'
+[2024.06.23-15.14.12:935][489]LogFileHelpers: Auto-saving content packages took 0.299
+[2024.06.23-15.14.24:337][595]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.14.24:345][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.14.24:345][595]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:14:24)
+[2024.06.23-15.14.24:345][595]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.14.24:363][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018103s)
+[2024.06.23-15.14.24:363][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.018141s)
+[2024.06.23-15.14.24:378][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.06.23-15.14.24:380][595]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.14.24:380][595]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.14.24:380][595]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.14.24:381][595]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2024.06.23-15.14.24:381][595]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.14.24:381][595]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.14.24:381][595]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.14.24:381][595]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.14.24:381][595]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.14.24:381][595]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.14.24:383][595]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.14.24:409][595]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.14.24:410][595]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.14.24:410][595]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.14.24:410][595]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.14.24:411][595]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.06.23-15.14.24:411][595]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.06.23-15.14.24:412][595]LogInit: FAudioDevice initialized with ID 36.
+[2024.06.23-15.14.24:412][595]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.06.23-15.14.24:412][595]LogAudio: Display: Audio Device (ID: 36) registered with world 'Dungeons'.
+[2024.06.23-15.14.24:412][595]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.06.23-15.14.24:412][595]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.06.23-15.14.24:415][595]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.14.24:425][595]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.14.24
+[2024.06.23-15.14.24:425][595]LogWorld: Bringing up level for play took: 0.009686
+[2024.06.23-15.14.24:431][595]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2024.06.23-15.14.24:437][595]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.14.24:437][595]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.14.24:449][595]PIE: Server logged in
+[2024.06.23-15.14.24:449][595]PIE: Play in editor total start time 0.105 seconds.
+[2024.06.23-15.15.48:750][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.15.48:750][216]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.15.48:750][216]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.15.48:763][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.15.48:766][216]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.15.48:773][216]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.15.48:792][216]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.15.48:793][216]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.06.23-15.15.48:793][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.06.23-15.15.48:795][216]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.06.23-15.15.48:814][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.06.23-15.15.48:887][217]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2024.06.23-15.16.27:512][582]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ProceduralDungeon/Assets/EnergyPotion.EnergyPotion
+[2024.06.23-15.16.27:513][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.16.27:513][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.20.13:162][109]BlueprintLog: New page: Compile AoE_Fear
+[2024.06.23-15.20.13:192][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.06.23-15.20.15:712][323]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.20.15:720][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.20.15:721][323]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:20:15)
+[2024.06.23-15.20.15:747][323]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.20.15:765][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018049s)
+[2024.06.23-15.20.15:765][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.018095s)
+[2024.06.23-15.20.15:780][323]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.06.23-15.20.15:783][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.20.15:783][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.20.15:783][323]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.20.15:783][323]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2024.06.23-15.20.15:783][323]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.06.23-15.20.15:783][323]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.20.15:783][323]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.20.15:783][323]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.20.15:784][323]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.20.15:784][323]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.20.15:784][323]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.20.15:784][323]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.20.15:784][323]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.20.15:784][323]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.20.15:784][323]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.20.15:784][323]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.20.15:786][323]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.20.15:811][323]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.20.15:811][323]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.20.15:811][323]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.20.15:811][323]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.20.15:812][323]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.06.23-15.20.15:812][323]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.06.23-15.20.15:813][323]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.06.23-15.20.15:813][323]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.06.23-15.20.15:813][323]LogInit: FAudioDevice initialized with ID 37.
+[2024.06.23-15.20.15:813][323]LogAudio: Display: Audio Device (ID: 37) registered with world 'Dungeons'.
+[2024.06.23-15.20.15:813][323]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.06.23-15.20.15:816][323]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.20.15:826][323]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.20.15
+[2024.06.23-15.20.15:827][323]LogWorld: Bringing up level for play took: 0.010399
+[2024.06.23-15.20.15:832][323]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2024.06.23-15.20.15:838][323]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.20.15:838][323]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.20.15:850][323]PIE: Server logged in
+[2024.06.23-15.20.15:851][323]PIE: Play in editor total start time 0.13 seconds.
+[2024.06.23-15.20.17:985][521]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.20.17:985][521]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.20.17:985][521]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.20.23:091][ 66]LogScript: Warning: Script Msg: AoE_Fear_C_0 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.20.23:091][ 66]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_0
+[2024.06.23-15.20.30:447][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.20.30:447][846]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.20.30:448][846]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.20.30:460][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.20.30:463][846]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.20.30:471][846]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.20.30:489][846]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.20.30:489][846]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.06.23-15.20.30:489][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.06.23-15.20.30:491][846]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.06.23-15.20.30:507][846]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.06.23-15.20.30:572][847]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2024.06.23-15.20.32:398][ 28]LogDerivedDataCache: C:/Users/jamoh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.127 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1774 files in 2936 folders with total size 98 MiB.
+[2024.06.23-15.21.00:352][990]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.21.00:454][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.06.23-15.21.14:671][902]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.21.14:678][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.21.14:678][902]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:21:14)
+[2024.06.23-15.21.14:678][902]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.21.14:694][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016028s)
+[2024.06.23-15.21.14:694][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.016065s)
+[2024.06.23-15.21.14:713][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.06.23-15.21.14:717][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.21.14:718][902]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.21.14:718][902]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.21.14:718][902]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2024.06.23-15.21.14:718][902]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.21.14:718][902]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.21.14:718][902]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.21.14:719][902]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.21.14:719][902]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.21.14:719][902]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.21.14:721][902]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.21.14:746][902]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.21.14:746][902]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.21.14:746][902]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.21.14:746][902]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.21.14:747][902]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.06.23-15.21.14:747][902]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.06.23-15.21.14:749][902]LogInit: FAudioDevice initialized with ID 38.
+[2024.06.23-15.21.14:749][902]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.06.23-15.21.14:749][902]LogAudio: Display: Audio Device (ID: 38) registered with world 'Dungeons'.
+[2024.06.23-15.21.14:749][902]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.06.23-15.21.14:749][902]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.06.23-15.21.14:752][902]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.21.14:761][902]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.21.14
+[2024.06.23-15.21.14:762][902]LogWorld: Bringing up level for play took: 0.009746
+[2024.06.23-15.21.14:768][902]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2024.06.23-15.21.14:774][902]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.21.14:774][902]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.21.14:788][902]PIE: Server logged in
+[2024.06.23-15.21.14:788][902]PIE: Play in editor total start time 0.11 seconds.
+[2024.06.23-15.21.21:368][544]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.21.21:368][544]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.21.21:368][544]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.21.23:774][793]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.06.23-15.21.23:774][793]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.06.23-15.21.24:574][878]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.06.23-15.21.24:574][878]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	SkillSlot2_C /Engine/Transient.UnrealEdEngine_0:GameInstance_36.HeadsUpDisplay_C_0.WidgetTree_0.ActionBar.WidgetTree_0.SkillSlot2
+	Function /Game/SkillSystem/UI/SkillSlot2.SkillSlot2_C:ExecuteUbergraph_SkillSlot2:02C0
+[2024.06.23-15.21.24:574][878]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Node:  Bind Event to Cast Success Graph:  EventGraph Function:  Execute Ubergraph Skill Slot 2 Blueprint:  SkillSlot2
+[2024.06.23-15.21.24:574][878]LogScript: Warning: Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue
+	SkillSlot2_C /Engine/Transient.UnrealEdEngine_0:GameInstance_36.HeadsUpDisplay_C_0.WidgetTree_0.ActionBar.WidgetTree_0.SkillSlot2
+	Function /Game/SkillSystem/UI/SkillSlot2.SkillSlot2_C:ExecuteUbergraph_SkillSlot2:0302
+[2024.06.23-15.21.24:574][878]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_FinishSpawningActor_ReturnValue". Node:  Bind Event to Cast Interrupted Graph:  EventGraph Function:  Execute Ubergraph Skill Slot 2 Blueprint:  SkillSlot2
+[2024.06.23-15.21.25:524][980]LogScript: Warning: Script Msg: AoE_Fear_C_0 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.21.25:524][980]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_0
+[2024.06.23-15.21.30:889][520]LogScript: Warning: Script Msg: AoE_Fear_C_1 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.21.30:889][520]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_1
+[2024.06.23-15.21.41:998][643]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.21.41:998][643]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.06.23-15.21.43:015][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.21.43:016][748]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.21.43:016][748]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.21.43:029][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.21.43:032][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.21.43:040][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.21.43:055][748]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-15.21.43:059][748]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.06.23-15.21.43:059][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.06.23-15.21.43:061][748]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.06.23-15.21.43:064][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.21.43:078][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.23-15.21.43:223][749]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2024.06.23-15.21.45:505][918]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-15.21.45:512][918]LogSlate: Window 'Message Log' being destroyed
+[2024.06.23-15.22.25:252][304]BlueprintLog: New page: Compile TargetParent
+[2024.06.23-15.22.25:526][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.06.23-15.22.28:018][485]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.23-15.22.28:026][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.23-15.22.28:026][485]PIE: New page: PIE session: Dungeons (23 Jun 2024, 17:22:28)
+[2024.06.23-15.22.28:026][485]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.22.28:042][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016243s)
+[2024.06.23-15.22.28:042][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dungeons.Dungeons to /Game/UEDPIE_0_Dungeons.Dungeons (0.016281s)
+[2024.06.23-15.22.28:060][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.23-15.22.28:064][485]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.23-15.22.28:064][485]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.23-15.22.28:065][485]LogAIModule: Creating AISystem for world Dungeons
+[2024.06.23-15.22.28:065][485]LogPlayLevel: PIE: World Init took: (0.001026s)
+[2024.06.23-15.22.28:065][485]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.06.23-15.22.28:065][485]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.06.23-15.22.28:065][485]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.23-15.22.28:066][485]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.23-15.22.28:066][485]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.23-15.22.28:066][485]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.23-15.22.28:068][485]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.23-15.22.28:094][485]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Elgato Wave:3)
+[2024.06.23-15.22.28:094][485]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.23-15.22.28:094][485]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.23-15.22.28:094][485]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.23-15.22.28:094][485]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.06.23-15.22.28:094][485]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.06.23-15.22.28:096][485]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.06.23-15.22.28:097][485]LogInit: FAudioDevice initialized with ID 39.
+[2024.06.23-15.22.28:097][485]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.06.23-15.22.28:097][485]LogAudio: Display: Audio Device (ID: 39) registered with world 'Dungeons'.
+[2024.06.23-15.22.28:097][485]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.06.23-15.22.28:100][485]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.06.23-15.22.28:110][485]LogWorld: Bringing World /Game/UEDPIE_0_Dungeons.Dungeons up for play (max tick rate 0) at 2024.06.23-16.22.28
+[2024.06.23-15.22.28:110][485]LogWorld: Bringing up level for play took: 0.010074
+[2024.06.23-15.22.28:116][485]LogOnline: OSS: Created online subsystem instance for: :Context_115
+[2024.06.23-15.22.28:122][485]LogScript: Warning: Script Msg: DungeonGenerator_C_2 Check for Dungeon Completion SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.22.28:122][485]LogScript: Warning: Script Msg called by: DungeonGenerator_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.DungeonGenerator_C_2
+[2024.06.23-15.22.28:135][485]PIE: Server logged in
+[2024.06.23-15.22.28:136][485]PIE: Play in editor total start time 0.11 seconds.
+[2024.06.23-15.22.30:162][651]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.06.23-15.22.30:162][651]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.06.23-15.22.30:162][651]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.06.23-15.22.32:785][885]LogScript: Warning: Script Msg: AoE_Fear_C_0 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.22.32:785][885]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_0
+[2024.06.23-15.22.37:190][319]LogScript: Warning: Script Msg: AoE_Fear_C_1 TickEffect SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2024.06.23-15.22.37:190][319]LogScript: Warning: Script Msg called by: AoE_Fear_C /Game/UEDPIE_0_Dungeons.Dungeons:PersistentLevel.AoE_Fear_C_1
+[2024.06.23-15.22.52:805][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.22.52:805][776]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Dungeons
+[2024.06.23-15.22.52:806][776]LogWorld: UWorld::CleanupWorld for Dungeons, bSessionEnded=true, bCleanupResources=true
+[2024.06.23-15.22.52:819][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.22.52:822][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.23-15.22.52:829][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.23-15.22.52:847][776]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.23-15.22.52:848][776]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.06.23-15.22.52:848][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.06.23-15.22.52:849][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.06.23-15.22.52:853][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.23-15.22.52:868][776]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.06.23-15.22.52:935][777]LogPlayLevel: Display: Destroying online subsystem :Context_115
